@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(fundo.png);
+}
+#logoIFSP_menu{
+    display: flex;
+    justify-content: space-between;
+}
+#menu{
+    display: flex;
+}
+#logo_ifsp{
+    width: 233px;
+    height: 66px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.itens_menu{
+    margin-right: 25px;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+#logo_feira{
+    width: 711px;
+    height: 416px;
+    margin-bottom: 100px;
+}
+#centralizar_logo_feira{
+    display: flex;
+    justify-content: center;
+}
+#titulo_evento{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 60px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-shadow: -7px -7px black;
+    margin-left: 60px;
+}
+#evento{
+    background-color: white;
+    padding-bottom: 10px;
+}
+.display_flex{
+    display: flex;
+}
+#edicao_anterior{
+    width: 570px;
+    height: 450px;
+    margin-left: 70px;
+    margin-top: -120px;
+}
+.texto{
+    width: 600px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 90px;
+    font-size: 25px;
+    text-align: justify;
+}
+#lorem{
+    margin-top: 150px;
+    background-color: #90dadb;
+    padding-bottom: 100px;
+}
+#titulo_lorem{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 60px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-shadow: -7px -7px black;
+    text-align: end;
+    margin-right: 60px;
+}
+#logo_cientistas{
+    width: 400px;
+    height: 400px;
+    margin-top: -230px;
+    margin-left: 90px;
+}
+#programacao{
+    margin-top: 100px;
+    background-color: white;
+    padding-bottom: 600px;
+}
+#titulo_programacao{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 60px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-shadow: -7px -7px black;
+    text-align: center;
+}
+#transmissao{
+    margin-top: 100px;
+    background-color: white;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+#titulo_transmissao{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 60px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #c91518;
+    text-shadow: -7px -7px #e67d81;
+    margin-left: 60px;
+}
+#logo_youtube{
+    margin-top: -80px;
+}
+#botao_transmissao{
+    background-color: #e67d81;
+    box-shadow: 4px 4px #c91518;
+    width: 150px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.tirar_sublinhado{
+    color: white;
+    text-decoration: none;
+}
+#inscricoes{
+    margin-top: 150px;
+    background-color: #c1e2c1;
+    padding-bottom: 15px;
+    margin-bottom: 150px;
+}
+#logo_pessoas{
+    width: 400px;
+    height: 400px;
+    margin-top: -120px;
+    margin-left: 40px;
+}
+#titulo_inscricoes{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 60px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #379936;
+    text-shadow: -7px -7px #8bcc8a;
+    text-align: end;
+    margin-right: 60px;
+}
+#texto_inscricoes{
+    width: 600px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 200px;
+    font-size: 25px;
+    text-align: justify;
+}
+#botao_inscricoes{
+    background-color: #8bcc8a;
+    box-shadow: 4px 4px #379936;
+    width: 150px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 650px;
+    margin-top: 30px;
+}
+#logo_extensao{
+    width: 155px;
+    height: 81px;
+}
+#logo_cnpq{
+    width: 204px;
+    height: 61px;
+    margin-left: 60px;
+}
+#apoio_realizacao{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+#titulo_apoio{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
