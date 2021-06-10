@@ -1,10 +1,10 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
 body{
-    background-image: url(img/fundo.png);
+    background-color: #fcfcfc;
+    background-image:  linear-gradient(#f1f1f1 1.1px, transparent 1.1px), linear-gradient(to right, #f1f1f1 1.1px, #fcfcfc 1.1px);
+    background-size: 30px 30px;
 }
+
+
 #logoIFSP_menu{
     display: flex;
     justify-content: space-between;
@@ -35,6 +35,13 @@ body{
     display: flex;
     justify-content: center;
 }
+
+#evento{
+    background-color: white;
+    padding-bottom: 10px;
+    position: relative;
+}
+
 #titulo_evento{
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -43,26 +50,28 @@ body{
     -webkit-text-stroke-color: black;
     text-shadow: -7px -7px black;
     margin-left: 60px;
+    position: absolute;
+    top:-45px;
 }
-#evento{
-    background-color: white;
-    padding-bottom: 10px;
+
+.sub_header {
+    padding-top: 60px;
 }
+
 .display_flex{
     display: flex;
 }
 #edicao_anterior{
-    width: 570px;
     height: 450px;
     margin-left: 70px;
     margin-top: -120px;
 }
 .texto{
-    width: 600px;
     font-family: 'Open Sans', sans-serif;
     margin-left: 90px;
     font-size: 25px;
     text-align: justify;
+    line-height: 1.8;
 }
 #lorem{
     margin-top: 150px;
@@ -76,14 +85,15 @@ body{
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     text-shadow: -7px -7px black;
-    text-align: end;
-    margin-right: 60px;
+    position: absolute;
+    top:-45px;
+    right: 0;
+
 }
 #logo_cientistas{
     width: 400px;
     height: 400px;
     margin-top: -230px;
-    margin-left: 90px;
 }
 #programacao{
     margin-top: 100px;
@@ -194,4 +204,10 @@ body{
     font-size: 25px;
     text-align: center;
     margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+    position: relative;
 }
