@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    background-image: url(fundo.png);
+    background-image: url(img/fundo.png);
 }
 #logoIFSP_menu{
     display: flex;
