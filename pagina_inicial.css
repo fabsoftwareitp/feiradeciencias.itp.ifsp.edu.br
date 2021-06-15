@@ -13,8 +13,8 @@ body{
     display: flex;
 }
 #logo_ifsp{
-    width: 233px;
-    height: 66px;
+    width: 200px;
+    height: 70px;
     margin-top: 20px;
     margin-left: 15px;
 }
@@ -185,14 +185,18 @@ body{
     margin-left: 650px;
     margin-top: 30px;
 }
-#logo_extensao{
-    width: 155px;
-    height: 81px;
+#logo_ifsp2{
+    width: 200px;
+    height: 70px;
 }
 #logo_cnpq{
-    width: 204px;
-    height: 61px;
+    width: 200px;
+    height: 60px;
     margin-left: 60px;
+    margin-right: 60px;
+}
+#logo_fabsoftware{
+    width: 100px;
 }
 #apoio_realizacao{
     display: flex;
