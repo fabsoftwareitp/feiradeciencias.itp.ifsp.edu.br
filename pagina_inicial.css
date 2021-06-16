@@ -158,28 +158,6 @@ body {
     padding-bottom: 150px;
 }
 
-#texto_DT2 {
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-}
-
-#Sub_DT2 {
-    font-family: 'Montserrat', sans-serif;
-    -webkit-text-stroke-width: 2px;
-    color: black;
-    font-size: 25px;
-    top: -45px;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    margin-right: 350px;
-}
-
-.Sub_DT3 {
-    margin-right: 250px;
-}
-
 #titulo_programacao {
     font-family: 'Montserrat', sans-serif;
     color: white;
