@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-reboot@4.5.6/reboot.css">
     <link rel="stylesheet" href="pagina_inicial.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap-reboot.min.css" rel="stylesheet">
@@ -20,22 +21,22 @@
             </div>
             <div id="menu">
                 <a href="index.html" class="itens_menu">
-                    <p>Início</p>
+                    Início
                 </a>
                 <a href="" class="itens_menu">
-                    <p>Programação</p>
+                    Programação
                 </a>
                 <a href="" class="itens_menu">
-                    <p>Inscrições de trabalhos</p>
+                    Inscrições de trabalhos
                 </a>
                 <a href="" class="itens_menu">
-                    <p>Local</p>
+                    Local
                 </a>
                 <a href="" class="itens_menu">
-                    <p>Edições Anteriores</p>
+                    Edições Anteriores
                 </a>
                 <a href="cursos.html" class="itens_menu">
-                  <p>Cursos</p>
+                  Cursos
                 </a>
             </div>
         </div>
@@ -47,7 +48,7 @@
     <!--O EVENTO-->
     <div id="evento">
         <div class="container">
-            <p id="titulo_evento"><strong>O evento</strong></p>
+            <p id="titulo_evento" class="titulo_principal"><strong>O evento</strong></p>
             <div class="display_flex sub_header">
                 <p class="texto">A II MOSTRA CIENTÍFICA E FEIRA DE CIÊNCIAS DO IFSP ITAPETININGA é um evento idealizado e realizado pelas Coordenadoria de Pesquisa, Inovação e Pós-Graduação, Diretoria Adjunta Educacional e Coordenadoria de Extensão do Câmpus Itapetininga do IFSP.</p>
                 <img src="img/montagem.png" alt="Fotos da edição anterior da feira" id="edicao_anterior">
@@ -56,66 +57,66 @@
     </div>
 
 
+    <!--DATAS IMPORTANTES-->
     <div id="DT_importante">
         <div class="container">
-            <p id="titulo_DT"><strong>Datas Importantes</strong></p>
-            <div class="display_flex sub_header">
-                <img src="img/logo_cientistas.png" alt="logo cientistas" id="logo_cientistas">
-                <div class="ajuste">
-                    <h2 id="Sub_DT">Datas Eventos</h2>
-                    <div id="texto_DT">
-                        <div>
-                            <p class="DT">04/10 a 22/10</p>
-                            <p class="DT">27/9 a 21/10 às 17h</p>
-                            <p class="DT">19/10 </p>
-                            <p class="DT">20/10 </p>
-                            <p class="DT">21/10 Manhã</p>
-                            <p class="DT">21/10 Tarde</p>
-                            <p class="DT">21/10 Tarde</p>
-                        </div>
-                        <div>
-                            <p class="DT">Exposição e visitação da feira virtual</p>
-                            <p class="DT">Período de votação nos melhores trabalhos na categoria voto popular</p>
-                            <p class="DT">Apresentação e arguição dos melhores trabalhos</p>
-                            <p class="DT">Apresentação e arguição dos melhores trabalhos</p>
-                            <p class="DT">II Congresso Paulista de Ensino Ciências (palestra + apresentações)</p>
-                            <p class="DT">apresentação e arguição dos melhores trabalhos</p>
-                            <p class="DT">Premiação!</p>
-                        </div>
-                    </div>
+            <p id="titulo_DT" class="titulo_principal"><strong>Datas importantes</strong></p>
+                <div class="datas_importantes sub_header">
+                    <img src="img/logo_cientistas.png" alt="logo cientistas" id="logo_cientistas">
+                    <ul>
+                        <li>04/10 a 22/10 - <small>Exposição e visitação da feira virtual</small></li>
+                        <li>27/9 a 21/10 às 17h - <small>Período de votação nos melhores trabalhos na categoria voto popular</small></li>
+                        <li>19/10 - <small>Apresentação e arguição dos melhores trabalhos</small></li>
+                        <li>20/10 - <small>Apresentação e arguição dos melhores trabalhos</small></li>
+                        <li>21/10 Manhã - <small>II Congresso Paulista de Ensino Ciências (palestra + apresentações)</small></li>
+                        <li>21/10 Tarde - <small>apresentação e arguição dos melhores trabalhos</small></li>
+                        <li>21/10 Tarde - <small>Premiação!</small></li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
+
+    <!--COMISSÃO ORGANIZADORA-->
     <div id="comissao">
         <div class="container">
-            <p id="titulo_comissao"><strong>Comissão Organizadora</strong></p>
-            <div class="display_flex">
+            <p id="titulo_comissao" class="titulo_principal"><strong>Comissão Organizadora</strong></p>
+            <div class="display_flex sub_header">
                 <div>
-                    <p class="texto">A comissão organizadora é composta por: Alessandra Luzia da Roz, Carolina Mandarini Dias, Marcos Antonino Callegari, Alexandre Shigunov Neto, Carlos Henrique da Silva Santos e Danilo Camargo Bueno.</p>
+                    <ul class="texto p">
+                        <li>Alessandra Luzia da Roz</li>
+                        <li>Carolina Mandarini Dias</li>
+                        <li>Marcos Antonino Callegari</li>
+                        <li>Alexandre Shigunov Neto</li>
+                        <li>Carlos Henrique da Silva Santos</li>
+                        <li>Danilo Camargo Bueno</li>
+                    </ul>
                 </div>
                 <img src="img/logo_pessoas2.png" alt="logo pessoas" id="logo_pessoas">                
             </div>
         </div>
-    </div>>
-    <div id="programacao">
+    </div>
+
+    <!--PROGRAMAÇÃO-->
+    <div id="programacao" style="display: none;">
         <p id="titulo_programacao"><strong>Programação</strong></p>
         <div>
 
         </div>
     </div>
     <div id="transmissao">
-        <div>
+        <div class="container">
             <p id="titulo_transmissao"><strong>Transmissão</strong></p>
-            <p class="texto">Esse ano a Feira acontecerá online, sendo transmitido pelo canal do grupo de Informática do Instituto Federal de Educação, Ciência e Tecnologia de São Paulo Câmpus Itapetininga
-            </p>
-            <div id="botao_transmissao"><a href="" class="tirar_sublinhado">Assistir</a></div>
-        </div>
-        <div>
-            <img src="img/logo_youtube.png" alt="logo youtube" id="logo_youtube">
+            <div class="">
+                <img src="img/logo_youtube.png" alt="logo youtube" id="logo_youtube" class="youtube_img">
+                <p class="texto youtube_text">Esse ano a Feira acontecerá online, sendo transmitido pelo canal do grupo de Informática do Instituto Federal de Educação, Ciência e Tecnologia de São Paulo Câmpus Itapetininga</p>
+
+                <a href="https://www.youtube.com/channel/UCEMUJSUnnvmrRQoD28-iGbQ" target="_blank" class="btn btn-danger mt-3">Ir para o canal!</a>
+            </div>
+
         </div>
     </div>
-    <div id="inscricoes">
+    <div id="inscricoes" style="display: none;">
         <div class="container">
             <p id="titulo_inscricoes"><strong>Inscrições</strong></p>
             <div class="display_flex">
@@ -128,11 +129,14 @@
             </div>
         </div>
     </div>
-    <p id="titulo_apoio">Apoio e Realização:</p>
-    <div id="apoio_realizacao">
-        <img src="img/logo_ifsp.png" alt="IFSP Itapetininga" id="logo_ifsp2">
-        <img src="img/logo_cnpq.png" alt="CNPQ" id="logo_cnpq">
-        <img src="img/logo_fabsoftware.png" alt="Fábrica de Software Acadêmica" id="logo_fabsoftware">
+
+    <div class="mt-3">
+        <p id="titulo_apoio">Apoio e Realização:</p>
+        <div id="apoio_realizacao">
+            <img src="img/logo_ifsp.png" alt="IFSP Itapetininga">
+            <img src="img/logo_cnpq.png" alt="CNPQ">
+            <img src="img/logo_fabsoftware.png" alt="Fábrica de Software Acadêmica">
+        </div>
     </div>
 </body>
 

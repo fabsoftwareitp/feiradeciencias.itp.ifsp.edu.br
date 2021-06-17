@@ -4,13 +4,22 @@ body {
     background-size: 30px 30px;
 }
 
+p, .p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    line-height: 1.8;
+}
+
 #logoIFSP_menu {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #menu {
     display: flex;
+    justify-content: space-between;
 }
 
 #logo_ifsp{
@@ -21,12 +30,12 @@ body {
 }
 
 .itens_menu {
-    margin-right: 25px;
-    margin-top: 30px;
     font-family: 'Montserrat', sans-serif;
     color: black;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
+    padding: 0 10px;
+    text-align: center;
 }
 
 #logo_feira {
@@ -46,14 +55,16 @@ body {
     position: relative;
 }
 
-#titulo_evento {
+.titulo_principal {
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 60px;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 2px; /* functiona em todos os navs? */
     -webkit-text-stroke-color: black;
     text-shadow: -7px -7px black;
-    margin-left: 60px;
+}
+
+#titulo_evento {
     position: absolute;
     top: -45px;
     animation-duration: 2s;
@@ -77,22 +88,13 @@ body {
 
 .display_flex {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #edicao_anterior {
     height: 450px;
     margin-left: 70px;
     margin-top: -120px;
-}
-
-.texto {
-    font-family: 'Open Sans', sans-serif;
-    margin-left: 90px;
-    font-size: 25px;
-    text-align: justify;
-    line-height: 1.8;
-    width: 600px;
 }
 
 #DT_importante {
@@ -102,42 +104,26 @@ body {
 }
 
 #titulo_DT {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-size: 60px;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
-    text-shadow: -7px -7px black;
     position: absolute;
-    margin-right: 100px;
     top: -45px;
     right: 0;
 }
 
-#Sub_DT {
-    font-family: 'Montserrat', sans-serif;
-    -webkit-text-stroke-width: 2px;
-    color: black;
-    margin-left: 115px;
-    top: -45px;
-    word-spacing: 460px;
+.datas_importantes ul {
+    list-style-type: none;
+    text-align: right;
 }
 
-.ajuste {
-    margin-left: 10px;
-}
-
-#texto_DT {
-    display: flex;
-    justify-content: space-around;
-    width: 1400px;
-}
-
-.DT {
-    margin-top: 10px;
+.datas_importantes li {
+    line-height: 1.8;
+    padding:10px;
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
-    -webkit-text-stroke-width: 1.3px;
+    font-weight: bold;
+}
+
+.datas_importantes img {
+    float: left;
 }
 
 #logo_cientistas {
@@ -147,16 +133,14 @@ body {
 }
 
 #comissao{
+    background-color: white;
     margin-top: 100px;
+
 }
 #titulo_comissao{
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-size: 60px;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
-    text-shadow: -7px -7px black;
     text-align: left;
+    position: absolute;
+    top:-52px;
 }
 #programacao{
     margin-top: 100px;
@@ -189,11 +173,18 @@ body {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #c91518;
     text-shadow: -7px -7px #e67d81;
-    margin-left: 60px;
+    position: absolute;
+    top:-42px;
 }
 
-#logo_youtube {
-    margin-top: -80px;
+.youtube_img {
+    float: right;
+    margin-left: 40px;
+}
+
+.youtube_text {
+    padding-top: 60px;
+
 }
 
 #botao_transmissao {
@@ -272,13 +263,18 @@ body {
 }
 
 #logo_fabsoftware{
-    width: 100px;
+    max-height: 60px;
 }
 
 #apoio_realizacao {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
+}
+
+#apoio_realizacao img {
+    max-height: 70px;
+    margin: 0 30px;
 }
 
 #titulo_apoio {
@@ -327,4 +323,35 @@ body {
 }
 #curso_sobre img{
     width: 100%;
+}
+
+
+/* botoes */
+.btn {
+    background-color: #e67d81;
+    box-shadow: 4px 4px #c91518;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 30px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    text-decoration: none;
+}
+
+.btn-danger {
+    background-color: #e67d81;
+    box-shadow: 4px 4px #c91518;
+}
+
+.btn-danger:hover {
+    color: #c91518;
+}
+
+.mt-3 {
+    margin-top: 30px;
 }
