@@ -3,7 +3,7 @@ name: 🚀 Deploy website on push
 on:
   push:
     branches:
-      - FAB-14
+      - main
 
 jobs:
   web-deploy:
