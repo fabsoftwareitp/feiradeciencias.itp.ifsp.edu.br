@@ -3,7 +3,7 @@
 return [
     'production' => false,
     'baseUrl' => '',
-    'title' => 'Jigsaw',
+    'title' => 'II MOSTRA E FEIRA DE CIÊNCIAS DO IFSP ITAPETININGA',
     'description' => 'Website description.',
     'collections' => [],
 ];
