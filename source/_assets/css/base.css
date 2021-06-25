@@ -1,0 +1,129 @@
+body {
+    font-family: 'Open-Sans', sans-serif;
+    background-color: #fcfcfc;
+    background-image: linear-gradient(#f1f1f1 1.1px, transparent 1.1px), linear-gradient(to right, #f1f1f1 1.1px, #fcfcfc 1.1px);
+    background-size: 30px 30px; 
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 22px;
+    text-align: justify;
+    line-height: 1.8;
+    color: #212529;
+    font-weight: 300;
+}
+
+a {
+    font-size: 22px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* GERAL */
+.container {
+    max-width: 1140px;
+    margin: auto;
+    position: relative;
+}
+
+.clear {
+    clear: both;
+}
+
+/* CABEÇALHO */
+.header {
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:20px;
+    background-color: white;
+}
+
+.header__logo img {
+    max-width: 200px;
+    margin-right: 40px;
+}
+
+.header__nav {
+    width:100%;
+}
+
+.header__nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+/* DESTAQUE */
+
+.destaque {
+    text-align: center;
+}
+
+.destaque img {
+    width: 60%;
+    margin-top: -15px;
+}
+
+/* SECOES */
+
+.secao {
+    margin: 30px 0 90px 0;
+    padding: 30px 0;
+    border-top: solid 1px #f2f2f2;
+    border-bottom: solid 1px #f2f2f2;
+}
+
+.secao__titulo {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 60px;
+    -webkit-text-stroke-width: 2px; /* functiona em todos os navs? */
+    -webkit-text-stroke-color: black;
+    text-shadow: -5px -4px black;
+    font-weight: 800;
+}
+
+.pos-topo-esquerda {
+    position: absolute;
+    top: -90px;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+.secao__conteudo {
+    padding-top: 20px;
+    font-size: 22px;
+    text-align: justify;
+    line-height: 1.8;
+    color: #212529;
+    font-weight: 300;
+}
+
+.secao__imagem-direita {
+    float: right;
+    width: 40%;
+    margin-left: 60px;
+}
