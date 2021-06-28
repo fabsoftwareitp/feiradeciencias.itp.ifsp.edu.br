@@ -1,0 +1,28 @@
+@extends('_layouts.main')
+
+@section('body')
+
+<section class="">
+    <div class="">
+        <h3>Programação do evento</h3>
+        <div class="">
+            <p>
+                A <strong>II Mostra Científica e Feira de Ciências do IFSP Virtual com apresentação dos trabalhos aprovados pela Comissão Científica de Avaliadores</strong> ocorrerá entre os dias <strong>04 de 22 de outubro de 2021</strong> no <a href="https://feiradeciencias.itp.ifsp.edu.br/">site do evento</a>.
+            </p>
+            <p>
+                O período de <strong>votação popular dos melhores trabalhos</strong> ocorrerá entre os dias <strong>04 de 21 de outubro de 2021 até às 17:00h</strong>, também no site do evento.
+            </p>
+            <p>
+                Os projetos finalistas escolhidos pela Comissão Científica participarão de <strong>apresentação e arguição online e síncronas</strong> nos dias <strong>19 a 21 de outubro de 2021</strong>. Informações sobre os projetos escolhidos entre os finalistas, bem como dias e horários das apresentações e arguições serão divulgados oportunamente no site do evento.
+            </p>
+            <p>
+                O <strong>II Congresso Paulista de Ensino de Ciências</strong> ocorrerá no dia <strong>21 de outubro de 2021</strong> no período da manhã.
+            </p>
+            <p>
+                A <strong>Cerimônia de Premiação</strong> acontecerá, online e sincronicamente, a partir das <strong>17h do dia 21 de outubro de 2021</strong>.
+            </p>
+        </div>
+    </div>
+</section>
+
+@endsection

@@ -18,10 +18,10 @@
             </div>
             <nav class="header__nav">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Programação</a></li>
-                    <li><a href="#">Inscrições de trabalhos</a></li>
-                    <li><a href="#">Local</a></li>
+                    <li><a href="/">Início</a></li>
+                    <li><a href="/programacao">Programação</a></li>
+                    <li><a href="/inscricoes">Inscrições de trabalhos</a></li>
+                    <li><a href="/feira_virtual">Feira Virtual</a></li>
                     <li><a href="#">Edições Anteriores</a></li>
                 </ul>
             </nav>
