@@ -106,6 +106,16 @@ img {
     font-weight: 800;
 }
 
+.secao__subtitulo {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 40px;
+    -webkit-text-stroke-width: 2px; /* functiona em todos os navs? */
+    -webkit-text-stroke-color: black;
+    text-shadow: -5px -4px black;
+    font-weight: 600;
+}
+
 .pos-topo-esquerda {
     position: absolute;
     top: -90px;

@@ -13,7 +13,7 @@
             <img class="secao__imagem-direita" src="/assets/images/montagem.png" alt="Fotos da edição anterior da feira">
             <p class="secao__texto">A <strong>II MOSTRA CIENTÍFICA E FEIRA DE CIÊNCIAS DO IFSP ITAPETININGA</strong> é um evento idealizado e realizado pelas Coordenadoria de Pesquisa, Inovação e Pós-Graduação, Diretoria Adjunta Educacional e Coordenadoria de Extensão do Câmpus Itapetininga do IFSP.</p>
 
-            <a href="#">Saiba mais detalhes sobre a feira!</a>
+            <a href="/regulamento">Saiba mais detalhes sobre a feira!</a>
         </div>
         <div class="clear"></div>
     </div>
@@ -30,7 +30,7 @@
                     <li>27/9 a 21/10 às 17h - <small>Período de votação nos melhores trabalhos na categoria "Voto Popular"</small></li>
                     <li>19/10 - <small>Apresentação e arguição dos melhores trabalhos</small></li>
                     <li>20/10 - <small>Apresentação e arguição dos melhores trabalhos</small></li>
-                    <li>21/10 Manhã - <small>II Congresso Paulista de Ensino Ciências</small></li>
+                    <li>21/10 Manhã - <small>II Congresso Paulista de Ensino de Ciências</small></li>
                     <li>21/10 Tarde - <small>apresentação e arguição dos melhores trabalhos</small></li>
                     <li>21/10 Tarde - <small>Premiação!</small></li>
                 </ul>
@@ -47,11 +47,11 @@
             <div>
                 <ul class="texto p">
                     <li>Alessandra Luzia Da Roz</li>
-                    <li>Carolina Mandarini Dias</li>
-                    <li>Marcos Antonino Callegari</li>
                     <li>Alexandre Shigunov Neto</li>
                     <li>Carlos Henrique da Silva Santos</li>
+                    <li>Carolina Mandarini Dias</li>
                     <li>Danilo Camargo Bueno</li>
+                    <li>Marcos Antonino Callegari</li>                              
                 </ul>
             </div>
             <img src="/assets/images/logo_pessoas2.png" alt="logo pessoas" id="logo_pessoas">                
@@ -97,7 +97,9 @@
     <div id="apoio_realizacao">
         <img src="/assets/images/logo_ifsp.png" alt="IFSP Itapetininga">
         <img src="/assets/images/logo_cnpq.png" alt="CNPQ">
-        <img src="/assets/images/logo_fabsoftware.png" alt="Fábrica de Software Acadêmica">
+        <a href="https://ic.itp.ifsp.edu.br/fabsoftware/" target="_blank">
+            <img src="/assets/images/logo_fabsoftware.png" alt="Fábrica de Software Acadêmica">
+        </a>
     </div>
 </div>
 @endsection
