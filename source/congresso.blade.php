@@ -2,10 +2,10 @@
 
 @section('body')
 
-<section class="">
-    <div class="">
-        <h3>II Congresso Paulista de Ensino de Ciências</h3>
-        <div class="">
+<section class="secao bg-white">
+    <div class="container">
+        <h3 class="secao__subtitulo">II Congresso Paulista de Ensino de Ciências</h3>
+        <div class="secao__conteudo">
             <p>
                 O II Congresso Paulista de Ensino de Ciências é uma iniciativa do Grupo de Pesquisas de Formação de Professores para o Ensino Básico, Técnico, Tecnológico e Superior (FoPeTec), do Grupo de Pesquisa em Educação Ambiental e Filosofia da Educação (EAFE), da Coordenação de Extensão e da Coordenação de Pesquisa, Inovação e Pós-Graduação do Instituto Federal de Educação, Ciência e Tecnologia de São Paulo (IFSP) Câmpus Itapetininga.
                 Trata-se de um evento científico voltado para discussões sobre as pesquisas realizadas no âmbito do Ensino de Ciências.
@@ -21,39 +21,39 @@
     </div>
 </section>
 
-<section class="">
-    <div class="">
-        <h3>Áreas temáticas do evento</h3>
-        <div class="">
+<section class="secao bg-white">
+    <div class="container">
+        <h3 class="secao__subtitulo">Áreas temáticas do evento</h3>
+        <div class="secao__conteudo">
             <ul>
-                <li>Ensino de Ciências</li>
-                <li>Processos de ensino/aprendizagem</li>
-                <li>Formação de Professores</li>
-                <li>Práticas Pedagógicas</li>
-                <li>Educação ambiental</li>
-                <li>Educação em Astronomia</li>
+                <li><p>Ensino de Ciências</p></li>
+                <li><p>Processos de ensino/aprendizagem</p></li>
+                <li><p>Formação de Professores</p></li>
+                <li><p>Práticas Pedagógicas</p></li>
+                <li><p>Educação ambiental</p></li>
+                <li><p>Educação em Astronomia</p></li>
             </ul>
         </div>    
     </div>
 </section>
 
-<section class="">
-    <div class="">
-        <h3>Datas importantes</h3>
-        <div class="">
+<section class="secao bg-white">
+    <div class="container">
+        <h3 class="secao__subtitulo">Datas importantes</h3>
+        <div class="secao__conteudo">
             <ul>
-                <li><strong>Inscrição de trabalhos:</strong> até 12 de setembro de 2021</li>
-                <li><strong>Divulgação dos trabalhos aprovados:</strong> até 30 de setembro de 2021</li>
-                <li><strong>Apresentação dos trabalhos:</strong> 21 de outubro de 2021</li>
+                <li><p><strong>Inscrição de trabalhos:</strong> até 12 de setembro de 2021</p></li>
+                <li><p><strong>Divulgação dos trabalhos aprovados:</strong> até 30 de setembro de 2021</p></li>
+                <li><p><strong>Apresentação dos trabalhos:</strong> 21 de outubro de 2021</p></li>
             </ul>
         </div>    
     </div>
 </section>
 
-<section class="">
-    <div class="">
-        <h3>Inscrição</h3>
-        <div class="">
+<section class="secao bg-white">
+    <div class="container">
+        <h3 class="secao__subtitulo">Inscrição</h3>
+        <div class="secao__conteudo">
             <p>
                 As inscrições são GRATUITAS e podem ser realizadas pelo <a href="https://eventos.itp.ifsp.edu.br/index.php/CEC/CPECiencias">Portal de Eventos do IFSP Itapetininga</a>.
             </p>
@@ -61,10 +61,10 @@
     </div>
 </section>
 
-<section class="">
-    <div class="">
-        <h3>Publicação dos resultados</h3>
-        <div class="">
+<section class="secao bg-white">
+    <div class="container">
+        <h3 class="secao__subtitulo">Publicação dos resultados</h3>
+        <div class="secao__conteudo">
             <p>
                 Os trabalhos apresentados durante o II Congresso Paulista de Ensino de Ciências serão publicados na forma online no Portal de Eventos do IFSP Itapetininga. A emissão do certificado de apresentação de trabalhos e a publicação do resumo nos Anais do evento só será feita para quem efetivamente apresentar o trabalho.
             </p>

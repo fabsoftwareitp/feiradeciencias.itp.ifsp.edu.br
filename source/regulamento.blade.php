@@ -2,15 +2,15 @@
 
 @section('body')
 
-<section class="">
-    <div class="">
-        <h3>II Mostra Científica e Feira de Ciências do IFSP Itapetininga </h3>
-        <div class="">
+<section class="secao bg-white">
+    <div class="container">
+        <h3 class="secao__subtitulo">II Mostra Científica e Feira de Ciências do IFSP Itapetininga </h3>
+        <div class="secao__conteudo">
             <p class="">
                 A II MOSTRA CIENTÍFICA E FEIRA DE CIÊNCIAS DO IFSP ITAPETININGA será composta por duas etapas, ocorridas concomitantemente, a saber:
                 <ol>
-                    <li> Exposição online dos vídeos dos projetos desenvolvidos pelos alunos no <a href="#">ambiente virtual</a> entre os dias 04 e 22 de outubro de 2021;</li>
-                    <li> Apresentação e arguição dos projetos finalistas em sessão online e síncrona nos dias 19, 20 e 21 de outubro de 2021.</li>
+                    <li> <p>Exposição online dos vídeos dos projetos desenvolvidos pelos alunos no <a href="#">ambiente virtual</a> entre os dias 04 e 22 de outubro de 2021;</p></li>
+                    <li> <p>Apresentação e arguição dos projetos finalistas em sessão online e síncrona nos dias 19, 20 e 21 de outubro de 2021.</p></li>
                 </ol>
             </p>
             <p>
@@ -20,10 +20,10 @@
     </div>
 </section>
 
-<section class="">
-    <div class="">
-        <h3>Regulamento do evento</h3>
-        <div class="">
+<section class="secao bg-white">
+    <div class="container">
+        <h3 class="secao__subtitulo">Regulamento do evento</h3>
+        <div class="secao__conteudo">
             <a href="#">Fazer download do regulamento</a>
             <p class="">
                 Podem participar da II Mostra e Feira de Ciências do IFSP Câmpus Itapetininga estudantes, regularmente matriculados, na rede pública e privada de Ensino, nas categorias Ensino Fundamental Anos Iniciais (1° ao 5° ano) - EFI, Ensino Fundamental Anos Finais (6° ao 9° ano) – EFII e Ensino Médio (regular e técnico) - EM.
@@ -51,23 +51,23 @@
                 Para análise e avaliação dos trabalhos enviados para a II Mostra e Feira de Ciências será formada uma Comissão Científica constituída por professores e pesquisadores, incluindo servidores dos Câmpus do IFSP.
                 Após o fim do prazo de envio dos projetos a Comissão Científica da II Mostra e Feira de Ciências fará a análise dos vídeos, diário de bordo e trabalho escrito, conforme o caso, segundo os critérios:
                 <ul>
-                    <li>Organização sequencial do trabalho;</li>
-                    <li>Clareza do trabalho</li>
-                    <li>Clareza dos objetivos</li>
-                    <li>Justificativa do trabalho</li>
-                    <li>Fundamentação teórica</li>
-                    <li>Material utilizado</li>
-                    <li>Metodologia</li>
-                    <li>Resultados obtidos</li>
-                    <li>Relevância e contribuição acadêmica</li>
-                    <li>Criatividade/Inovação</li>
-                    <li>Profundidade do tema</li>
-                    <li>Referências bibliográficas</li>
+                    <li><p>Organização sequencial do trabalho</p></li>
+                    <li><p>Clareza do trabalho</p></li>
+                    <li><p>Clareza dos objetivos</p></li>
+                    <li><p>Justificativa do trabalho</p></li>
+                    <li><p>Fundamentação teórica</p></li>
+                    <li><p>Material utilizado</p></li>
+                    <li><p>Metodologia</p></li>
+                    <li><p>Resultados obtidos</p></li>
+                    <li><p>Relevância e contribuição acadêmica</p></li>
+                    <li><p>Criatividade/Inovação</p></li>
+                    <li><p>Profundidade do tema</p></li>
+                    <li><p>Referências bibliográficas</p></li>
                 </ul>
             </p>
             
             <p>
-                Os projetos selecionados como finalistas serão divulgados na <a href="/">página oficial do Evento</a>
+                Os projetos selecionados como finalistas serão divulgados na <a href="/">página oficial do Evento</a>.
             </p>
             <p>
                 A citada Comissão Científica será responsável pela escolha dos projetos que serão os finalistas e serão apresentados nos dias 19, 20 e 21 de outubro de 2021 em horário a serem divulgados.
@@ -86,22 +86,22 @@
                 Cada sala virtual de apresentação terá, no mínimo, um membro da Comissão de Avaliação que avaliará e coordenará a apresentação dos trabalhos.
                 A Comissão Científica julgará os seguintes critérios da apresentação oral e arguição:
                 <ul>
-                        <li>Domínio do conteúdo</li>
-                        <li>Atitude e postura</li>
-                        <li>Organização da apresentação</li>
-                        <li>Habilidades de comunicação e expressão</li>
-                        <li>Capacidade de argumentação</li>
-                        <li>Correção gramatical e apresentação estética do trabalho</li>
+                        <li><p>Domínio do conteúdo</p></li>
+                        <li><p>Atitude e postura</p></li>
+                        <li><p>Organização da apresentação</p></li>
+                        <li><p>Habilidades de comunicação e expressão</p></li>
+                        <li><p>Capacidade de argumentação</p></li>
+                        <li><p>Correção gramatical e apresentação estética do trabalho</p></li>
                 </ul>
             </p>
             <p>
                 Todos os participantes da II Mostra e Feira de Ciências receberão certificado de participação!
                 A premiação do Evento outorgará certificação aos melhores trabalhos e menção honrosa nas seguintes classificações:
                 <ol>
-                    <li>Ensino Fundamental Anos Iniciais</li>
-                    <li>Ensino Fundamental Anos Finais</li>
-                    <li>Ensino Médio</li>
-                    <li>Meninas na Ciência</li>
+                    <li><p>Ensino Fundamental Anos Iniciais</p></li>
+                    <li><p>Ensino Fundamental Anos Finais</p></li>
+                    <li><p>Ensino Médio</p></li>
+                    <li><p>Meninas na Ciência</p></li>
                 </ol>
             </p>
             <p>

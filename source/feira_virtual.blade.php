@@ -2,10 +2,10 @@
 
 @section('body')
 
-<section class="">
-    <div class="">
-        <h3>Apresentação dos trabalhos</h3>
-        <div class="">
+<section class="secao bg-white">
+    <div class="container">
+        <h3 class="secao__subtitulo">Apresentação dos trabalhos</h3>
+        <div class="secao__conteudo">
             <p>
                 Após avaliação, os trabalhos classificados serão apresentados na II Mostra Científica e Feira de Ciências do IFSP Itapetininga Virtual, e estarão disponíveis para visitação entre os dias 04 e 22 de outubro de 2021, <a href="#">aqui</a>.
             </p>

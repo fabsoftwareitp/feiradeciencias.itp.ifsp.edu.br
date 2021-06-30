@@ -2,10 +2,10 @@
 
 @section('body')
 
-<section class="">
-    <div class="">
-        <h3>Programação do evento</h3>
-        <div class="">
+<section class="secao bg-white">
+    <div class="container">
+        <h3 class="secao__subtitulo">Programação do evento</h3>
+        <div class="secao__conteudo">
             <p>
                 A <strong>II Mostra Científica e Feira de Ciências do IFSP Virtual com apresentação dos trabalhos aprovados pela Comissão Científica de Avaliadores</strong> ocorrerá entre os dias <strong>04 de 22 de outubro de 2021</strong> no <a href="https://feiradeciencias.itp.ifsp.edu.br/">site do evento</a>.
             </p>
