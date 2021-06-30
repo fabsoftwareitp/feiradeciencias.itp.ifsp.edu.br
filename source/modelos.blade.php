@@ -4,7 +4,7 @@
 
 <section class="secao bg-white">
     <div class="container">
-        <h3 class="secao__subtitulo">Trabalho</h3>
+        <h3 class="secao__subtitulo ">Trabalho</h3>
         <div class="secao__conteudo">
             <a href="/assets/downloads/modelo_trabalho.docx">Fazer download do modelo</a>
             <p>

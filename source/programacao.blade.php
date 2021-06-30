@@ -16,7 +16,7 @@
                 Os projetos finalistas escolhidos pela Comissão Científica participarão de <strong>apresentação e arguição online e síncronas</strong> nos dias <strong>19 a 21 de outubro de 2021</strong>. Informações sobre os projetos escolhidos entre os finalistas, bem como dias e horários das apresentações e arguições serão divulgados oportunamente no site do evento.
             </p>
             <p>
-                O <strong>II Congresso Paulista de Ensino de Ciências</strong> ocorrerá no dia <strong>21 de outubro de 2021</strong> no período da manhã.
+                O <a href="/congresso">II Congresso Paulista de Ensino de Ciências</a> ocorrerá no dia <strong>21 de outubro de 2021</strong> no período da manhã.
             </p>
             <p>
                 A <strong>Cerimônia de Premiação</strong> acontecerá, online e sincronicamente, a partir das <strong>17h do dia 21 de outubro de 2021</strong>.
