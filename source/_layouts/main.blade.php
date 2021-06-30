@@ -14,13 +14,12 @@
 
         <div class="header">
             <div class="header__logo">
-                <img src="/assets/images/logo_ifsp.png" alt="IFSP Itapetininga">
+                <a href="/"><img src="/assets/images/logo_ifsp.png" alt="IFSP Itapetininga"></a>
             </div>
             <nav class="header__nav">
                 <ul>
-                    <li><a href="#">Início</a></li>
                     <li><a href="#">Programação</a></li>
-                    <li><a href="#">Inscrições de trabalhos</a></li>
+                    <li><a href="/inscricoes">Inscrições de trabalhos</a></li>
                     <li><a href="#">Local</a></li>
                     <li><a href="#">Edições Anteriores</a></li>
                 </ul>
