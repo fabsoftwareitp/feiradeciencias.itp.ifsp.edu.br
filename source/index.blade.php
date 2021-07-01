@@ -91,15 +91,4 @@
         </div>
     </div>
 </div>
-
-<div class="mt-3">
-    <p id="titulo_apoio">Apoio e Realização:</p>
-    <div id="apoio_realizacao">
-        <img src="/assets/images/logo_ifsp.png" alt="IFSP Itapetininga">
-        <img src="/assets/images/logo_cnpq.png" alt="CNPQ">
-        <a href="https://ic.itp.ifsp.edu.br/fabsoftware/" target="_blank">
-            <img src="/assets/images/logo_fabsoftware.png" alt="Fábrica de Software Acadêmica">
-        </a>
-    </div>
-</div>
 @endsection
