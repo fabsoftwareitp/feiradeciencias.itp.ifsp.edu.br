@@ -9,7 +9,7 @@
             <p class="">
                 A II MOSTRA CIENTÍFICA E FEIRA DE CIÊNCIAS DO IFSP ITAPETININGA será composta por duas etapas, ocorridas concomitantemente, a saber:
                 <ol>
-                    <li> <p>Exposição online dos vídeos dos projetos desenvolvidos pelos alunos no <a href="#">ambiente virtual</a> entre os dias 04 e 22 de outubro de 2021;</p></li>
+                    <li> <p>Exposição online dos vídeos dos projetos desenvolvidos pelos alunos no <a href="/feira_virtual" target="_blank">ambiente virtual</a> entre os dias 04 e 22 de outubro de 2021;</p></li>
                     <li> <p>Apresentação e arguição dos projetos finalistas em sessão online e síncrona nos dias 19, 20 e 21 de outubro de 2021.</p></li>
                 </ol>
             </p>

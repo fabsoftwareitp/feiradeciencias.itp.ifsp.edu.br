@@ -23,6 +23,8 @@
                     <li><a href="/inscricoes">Inscrições de trabalhos</a></li>
                     <li><a href="/feira_virtual">Feira Virtual</a></li>
                     <li><a href="#">Edições Anteriores</a></li>
+                    <li><a href="/modelos">Modelos</a></li>
+                    <li><a href="/congresso">Congresso</a></li>
                 </ul>
             </nav>
         </header>
