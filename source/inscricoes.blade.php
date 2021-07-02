@@ -39,9 +39,13 @@
                 <li><a href="https://eventos.itp.ifsp.edu.br/index.php/I_FEIRA/II_FEIRA_EFI ">Inscreva-se na modalidade</a></li>
             </ul>
 
-            <br>
-
             <p>Em cada uma das categorias os interessados poderão optar por participar da categoria especial "Meninas nas Ciências" (destinada às equipes formadas exclusivamente por meninas).</p>
+            <br>
+            
+            <h2>Modelos</h2>
+            <ul>
+                <li><a href="/assets/downloads/termo_ciencia_autorizacao.docx">Download do modelo de autorização de uso de imagem.</a></li>
+            </ul>
         </div>
     </div>
 </section>

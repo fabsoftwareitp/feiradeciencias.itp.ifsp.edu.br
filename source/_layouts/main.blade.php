@@ -12,7 +12,8 @@
     </head>
     <body>
 
-        <div class="header">
+        <!-- RODAPE -->
+        <header class="header">
             <div class="header__logo">
                 <a href="/"><img src="/assets/images/logo_ifsp.png" alt="IFSP Itapetininga"></a>
             </div>
@@ -26,8 +27,22 @@
                     <li><a href="/congresso">Congresso</a></li>
                 </ul>
             </nav>
-        </div>
+        </header>
 
+        <!-- CONTEUDO PRINCIPAL -->
         @yield('body')
+
+        <!-- RODAPE -->
+        <footer class="rodape">
+            <h6 class="rodape__titulo">Apoio e Realização:</h6>
+            <div class="rodape__conteudo">
+                <img src="/assets/images/logo_ifsp.png" alt="IFSP Itapetininga">
+                <img src="/assets/images/logo_cnpq.png" alt="CNPQ">
+                <a href="https://ic.itp.ifsp.edu.br/fabsoftware/" target="_blank">
+                    <img src="/assets/images/logo_fabsoftware.png" alt="Fábrica de Software Acadêmica">
+                </a>
+            </div>
+        </footer>
+
     </body>
 </html>
