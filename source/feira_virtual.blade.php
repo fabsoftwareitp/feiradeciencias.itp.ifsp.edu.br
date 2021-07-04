@@ -32,6 +32,8 @@
             
             <object data="/assets/images/blocos.svg"></object>
 
+            <object data="/assets/images/blocos_responsivo.svg"></object>
+
         </div>
         
 
