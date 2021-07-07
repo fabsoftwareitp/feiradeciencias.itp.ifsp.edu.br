@@ -2,7 +2,7 @@ body {
     font-family: 'Open-Sans', sans-serif;
     background-color: #fcfcfc;
     background-image: linear-gradient(#f1f1f1 1.1px, transparent 1.1px), linear-gradient(to right, #f1f1f1 1.1px, #fcfcfc 1.1px);
-    background-size: 30px 30px; 
+    background-size: 30px 30px;
 }
 
 a {
@@ -18,14 +18,22 @@ p {
 }
 
 a {
-    font-size: 22px;
+    font-size: 17px;
+}
+
+@media screen and (min-width:980px) {
+    a {
+        font-size: 22px;
+    }
 }
 
 img {
     max-width: 100%;
 }
 
+
 /* GERAL */
+
 .container {
     max-width: 1140px;
     margin: auto;
@@ -36,24 +44,26 @@ img {
     clear: both;
 }
 
+
 /* CABEÇALHO */
+
 .header {
     max-width: 1140px;
-    margin: auto;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top:20px;
+    margin: auto;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
     background-color: white;
 }
 
 .header__logo img {
     max-width: 200px;
-    margin-right: 40px;
 }
 
 .header__nav {
-    width:100%;
+    width: 100%;
 }
 
 .header__nav ul {
@@ -68,13 +78,14 @@ img {
     display: block;
     color: black;
     text-align: center;
-    padding: 10px;
     text-decoration: none;
+    padding: 10px;
 }
 
 .header a:hover {
     text-decoration: underline;
 }
+
 
 /* DESTAQUE */
 
@@ -86,6 +97,7 @@ img {
     width: 60%;
     margin-top: -15px;
 }
+
 
 /* SECOES */
 
@@ -100,7 +112,8 @@ img {
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 60px;
-    -webkit-text-stroke-width: 2px; /* functiona em todos os navs? */
+    -webkit-text-stroke-width: 2px;
+    /* functiona em todos os navs? */
     -webkit-text-stroke-color: black;
     text-shadow: -5px -4px black;
     font-weight: 800;
@@ -110,7 +123,8 @@ img {
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 40px;
-    -webkit-text-stroke-width: 2px; /* functiona em todos os navs? */
+    -webkit-text-stroke-width: 2px;
+    /* functiona em todos os navs? */
     -webkit-text-stroke-color: black;
     text-shadow: -5px -4px black;
     font-weight: 600;
@@ -140,6 +154,7 @@ img {
 
 
 /* RODAPE */
+
 .rodape {
     background-color: white;
     margin-top: 30px;
@@ -160,4 +175,73 @@ img {
 .rodape__conteudo img {
     max-height: 70px;
     margin: 0 30px;
+}
+
+
+/*Menu mobile*/
+
+.barras_menu {
+    width: 25px;
+}
+
+.fechar_menu {
+    width: 25px;
+    display: none;
+}
+
+.menu__toggle {
+    position: absolute;
+    right: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.menu__checkbox {
+    display: none;
+}
+
+.topico_menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.none_menu {
+    display: none;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 0%;
+        width: 300%
+    }
+    to {
+        margin-right: 5.3%;
+        width: 100%;
+    }
+}
+
+#menu__checkbox:checked~ul.topico_menu li.none_menu {
+    display: block;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+#menu__checkbox:checked~label.menu__toggle .fechar_menu {
+    display: block;
+}
+
+#menu__checkbox:checked~label.menu__toggle .barras_menu {
+    display: none;
+}
+
+@media screen and (min-width:980px) {
+    .menu__toggle {
+        display: none;
+    }
+    .topico_menu {
+        flex-direction: row;
+    }
+    .none_menu {
+        display: block;
+    }
 }
