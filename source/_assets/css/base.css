@@ -17,10 +17,6 @@ p {
     font-weight: 300;
 }
 
-a {
-    font-size: 17px;
-}
-
 @media screen and (min-width:980px) {
     a {
         font-size: 22px;
@@ -52,7 +48,7 @@ img {
     display: flex;
     margin: auto;
     position: relative;
-    margin-top: 20px;
+    margin-top: 5px;
     margin-bottom: 20px;
     padding-bottom: 20px;
     background-color: white;
@@ -71,7 +67,6 @@ img {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-around;
 }
 
 .header__nav a {
@@ -192,8 +187,9 @@ img {
 .menu__toggle {
     position: absolute;
     right: 25px;
-    margin-top: 30px;
     cursor: pointer;
+    margin-top: 20px;
+    z-index: 12;
 }
 
 .menu__checkbox {
@@ -220,7 +216,33 @@ img {
     }
 }
 
-#menu__checkbox:checked~ul.topico_menu li.none_menu {
+@keyframes slidein2 {
+    from {
+        margin-left: 0%;
+        width: 300%;
+        height: 0vh;
+    }
+    to {
+        margin-right: 5.3%;
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+#menu__checkbox:checked~label.menu__toggle {
+    position: fixed;
+}
+
+#menu__checkbox:checked~div.topico_menu {
+    position: fixed;
+    animation-duration: 1.2s;
+    animation-name: slidein2;
+    height: 100vh;
+    width: 100%;
+    z-index: 11;
+}
+
+#menu__checkbox:checked~div.topico_menu p.none_menu {
     display: block;
     animation-duration: 2s;
     animation-name: slidein;
@@ -228,13 +250,15 @@ img {
 
 #menu__checkbox:checked~label.menu__toggle .fechar_menu {
     display: block;
+    z-index: 10;
 }
 
 #menu__checkbox:checked~label.menu__toggle .barras_menu {
     display: none;
+    z-index: 10;
 }
 
-@media screen and (min-width:980px) {
+@media screen and (min-width:975px) {
     .menu__toggle {
         display: none;
     }
@@ -243,5 +267,41 @@ img {
     }
     .none_menu {
         display: block;
+    }
+}
+
+@media screen and (max-width:975px) {
+    body {
+        overflow: hidden;
+    }
+    a {
+        font-size: 30px;
+    }
+    .espacamento_menu {
+        margin-top: 80px;
+    }
+    .topico_menu {
+        -webkit-text-stroke-width: 1px;
+        left: 0%;
+        top: 0%;
+        background-color: #379936;
+    }
+}
+
+@media screen and (max-width:320px) {
+    body {
+        overflow: hidden;
+    }
+    a {
+        font-size: 25px;
+    }
+    .espacamento_menu {
+        margin-top: 65px;
+    }
+    .topico_menu {
+        -webkit-text-stroke-width: 1px;
+        left: 0%;
+        top: 0%;
+        background-color: #3d3699;
     }
 }

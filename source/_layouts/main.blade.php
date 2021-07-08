@@ -17,10 +17,10 @@
         <div class="header__logo">
                 <a href="/"><img src="/assets/images/logo_ifsp.png" alt="IFSP Itapetininga"></a>
             </div>
+
+            <!--Menu mobile-->
             <nav class="header__nav">
 
-<!--Menu mobile-->
-<ul>
             <nav class="menu_mobile">
     <input type="checkbox" id="menu__checkbox" class="menu__checkbox">
     <label for="menu__checkbox" class="menu__toggle">
@@ -35,24 +35,19 @@
         0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 
         12.28-32.19 0-44.48L242.72 256z" />
       </svg>
-    </label>
-    <ul class="topico_menu">
-                    <li class="none_menu"><a href="/programacao">Programação</a></li>
-                    <li class="none_menu"><a href="/inscricoes">Inscrições de trabalhos</a></li>
-                    <li class="none_menu"><a href="/feira_virtual">Feira Virtual</a></li>
-                    <li class="none_menu"><a href="#">Edições Anteriores</a></li>
-                    <li class="none_menu"><a href="/modelos">Modelos</a></li>
-                    <li class="none_menu"><a href="/congresso">Congresso</a></li>
-                </ul>
-</ul>
-
-  </nav>
-            
-            </ul>
+    </label>  
+    
+    <div class="topico_menu">
+                    <p class="none_menu"><a class="espacamento_menu" href="/programacao">Programação</a></p>
+                    <p class="none_menu"><a href="/inscricoes">Inscrições de trabalhos</a></p>
+                    <p class="none_menu"><a href="/feira_virtual">Feira Virtual</a></p>
+                    <p class="none_menu"><a href="#">Edições Anteriores</a></p>
+                    <p class="none_menu"><a href="/modelos">Modelos</a></p>
+                    <p class="none_menu"><a href="/congresso">Congresso</a></p>
+                </div>
+    </nav>
             </nav>
         </header>
-
-
 
 
         <!-- CONTEUDO PRINCIPAL -->
