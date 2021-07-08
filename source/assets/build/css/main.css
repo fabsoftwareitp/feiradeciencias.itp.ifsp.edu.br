@@ -54,7 +54,7 @@ p, .p {
 .titulo_principal {
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
     -webkit-text-stroke-width: 2px; /* functiona em todos os navs? */
     -webkit-text-stroke-color: black;
     text-shadow: -0.7rem -0.7rem black;
