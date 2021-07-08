@@ -1,0 +1,45 @@
+@import 'pagina_inicial.css';
+
+@media (max-width:1000px) {
+    html{
+        font-size: 40%;
+    }
+
+}
+
+@media (max-width:400px) {
+    
+    html{
+        font-size: 35%
+    }
+    .header,.mt-3{
+        width: 100%;
+    }
+    .header,.topico_menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .rodape__conteudo{
+        justify-content: space-evenly;
+    }
+    .imagens-rodape{
+        background-color: none;
+
+    }
+    .container{
+        width: 90%;
+        
+    }
+    .titulo_principal{
+        font-size: 4.5rem;
+        width: 100%;
+
+    }
+    #logo_pessoas{
+        margin: 0;
+    }
+    
+    
+    
+}   
+    

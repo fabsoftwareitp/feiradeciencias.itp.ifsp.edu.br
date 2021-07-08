@@ -1,13 +1,14 @@
+html{
+    font-size: 62.5%;
+}
 body {
     background-color: #fcfcfc;
     background-image: linear-gradient(#f1f1f1 1.1px, transparent 1.1px), linear-gradient(to right, #f1f1f1 1.1px, #fcfcfc 1.1px);
     background-size: 30px 30px;
 }
-
-p,
-.p {
+p, .p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
+    font-size: 2.5rem;
     text-align: justify;
     line-height: 1.8;
 }
@@ -23,26 +24,24 @@ p,
     justify-content: space-between;
 }
 
-#logo_ifsp {
-    width: 200px;
-    height: 70px;
-    margin-top: 20px;
-    margin-left: 15px;
+#logo_ifsp{
+    width: 14.705882352941176vw;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
 }
 
 .itens_menu {
     font-family: 'Montserrat', sans-serif;
     color: black;
-    font-size: 18px;
+    font-size: 1.8rem;
     text-decoration: none;
-    padding: 0 10px;
+    padding: 0 1rem;
     text-align: center;
 }
 
 #logo_feira {
-    width: 711px;
-    height: 416px;
-    margin-bottom: 100px;
+    width: 52.279411764705884vw;
+    margin-bottom: 10rem;
 }
 
 #centralizar_logo_feira {
@@ -52,31 +51,30 @@ p,
 
 #evento {
     background-color: white;
-    padding-bottom: 10px;
+    padding-bottom: 1rem;
     position: relative;
 }
 
 .titulo_principal {
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 60px;
-    -webkit-text-stroke-width: 2px;
-    /* functiona em todos os navs? */
+    font-size: 3rem;
+    -webkit-text-stroke-width: 2px; /* functiona em todos os navs? */
     -webkit-text-stroke-color: black;
-    text-shadow: -7px -7px black;
+    text-shadow: -0.7rem -0.7rem black;
     font-weight: 800;
 }
 
 #titulo_evento {
     position: absolute;
-    top: -45px;
+    top: -4.5rem;
     animation-duration: 2s;
     animation-name: slidein;
 }
 
 @keyframes slidein {
     from {
-        margin-left: 0%;
+        margin-left: 28%;
         width: 300%
     }
     to {
@@ -86,7 +84,7 @@ p,
 }
 
 .sub_header {
-    padding-top: 60px;
+    padding-top: 6rem;
 }
 
 .display_flex {
@@ -95,19 +93,20 @@ p,
 }
 
 #edicao_anterior {
-    height: 450px;
-    margin-left: 70px;
-    margin-top: -120px;
+    height: 10vh;
+    margin-left: 7rem;
+    margin-top: -12rem;
 }
 
 #DT_importante {
+    margin-top: 15rem;
     background-color: #90dadb;
-    padding-bottom: 50px;
+    padding-bottom: 5rem;
 }
 
 #titulo_DT {
     position: absolute;
-    top: -45px;
+    top: -4.5rem;
     right: 0;
 }
 
@@ -118,43 +117,40 @@ p,
 
 .datas_importantes li {
     line-height: 1.8;
-    padding: 10px;
+    padding:1rem;
     font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
 .datas_importantes img {
     float: left;
 }
-
 #logo_cientistas {
-    width: 400px;
-    height: 400px;
-    margin-top: -230px;
+    width:29.41176470588235vw;
+    margin-top: -2.3rem;
 }
 
-#comissao {
+#comissao{
     background-color: white;
-    margin-top: 100px;
-}
+    margin-top: 10rem;
 
-#titulo_comissao {
+}
+#titulo_comissao{
     text-align: left;
     position: absolute;
-    top: -52px;
+    top:-5.2rem;
 }
-
-#programacao {
-    margin-top: 100px;
+#programacao{
+    margin-top: 10rem;
     background-color: white;
-    padding-bottom: 150px;
+    padding-bottom: 15rem;
 }
 
 #titulo_programacao {
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 60px;
+    font-size: 6rem;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     text-shadow: -7px -7px black;
@@ -162,9 +158,9 @@ p,
 }
 
 #transmissao {
-    margin-top: 100px;
+    margin-top: 10rem;
     background-color: white;
-    padding-bottom: 15px;
+    padding-bottom: 1.5rem;
     display: flex;
     justify-content: space-between;
 }
@@ -172,35 +168,36 @@ p,
 #titulo_transmissao {
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 60px;
+    font-size: 6rem;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #c91518;
     text-shadow: -7px -7px #e67d81;
     position: absolute;
-    top: -42px;
+    top:-4.2rem;
     font-weight: 800;
 }
 
 .youtube_img {
     float: right;
-    margin-left: 40px;
+    margin-left: 4rem;
 }
 
 .youtube_text {
-    padding-top: 60px;
+    padding-top: 6rem;
+
 }
 
 #botao_transmissao {
     background-color: #e67d81;
-    box-shadow: 4px 4px #c91518;
-    width: 150px;
-    height: 40px;
+    box-shadow: 0.4rem 0.4rem #c91518;
+    width:  11.029411764705882vw;
+    height: 6.0882800608828vh;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 2.5rem;
     text-align: center;
-    padding-top: 10px;
-    margin-left: 90px;
-    margin-top: 30px;
+    padding-top: 1rem;
+    margin-left: 9rem;
+    margin-top: 3rem;
 }
 
 .tirar_sublinhado {
@@ -209,83 +206,87 @@ p,
 }
 
 #inscricoes {
-    margin-top: 150px;
+    margin-top: 15rem;
     background-color: #c1e2c1;
-    padding-bottom: 15px;
-    margin-bottom: 150px;
+    padding-bottom: 1.5rem;
+    margin-bottom: 15rem;
 }
-
+#juntar_partes{
+    justify-content: space-around;
+    display: flex;
+}
+#texto-p{
+    font-size: 2.5rem;
+    width: 100%;
+}
 #logo_pessoas {
-    width: 400px;
-    height: 400px;
-    margin-top: -120px;
-    margin-left: 40px;
+    width: 25vw;
+    margin-top: -12rem;
+    margin-left: 40rem;
 }
 
 #titulo_inscricoes {
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 60px;
+    font-size: 6rem;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #379936;
     text-shadow: -7px -7px #8bcc8a;
     text-align: end;
-    margin-right: 60px;
+    margin-right: 6rem;
 }
 
 #texto_inscricoes {
-    width: 600px;
+    width: 44.11764705882353vw;
     font-family: 'Open Sans', sans-serif;
-    margin-left: 100px;
-    font-size: 25px;
+    margin-left: 10rem;
+    font-size: 2.5rem;
     text-align: justify;
 }
 
 #botao_inscricoes {
     background-color: #8bcc8a;
-    box-shadow: 4px 4px #379936;
-    width: 150px;
-    height: 40px;
+    box-shadow: 0.4rem 0.4rem #379936;
+    width: 29.41176470588235vw;;
+    height: 6.0882800608828vh ;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 2.5rem;
     text-align: center;
-    padding-top: 10px;
-    margin-left: 550px;
-    margin-top: 30px;
+    padding-top: 1rem;
+    margin-left: 55rem;
+    margin-top: 30rem;
 }
 
-#logo_ifsp2 {
-    width: 200px;
-    height: 70px;
+#logo_ifsp2{
+    width: 30.441400304414003vh;
+ 
+}
+#logo_cnpq{
+    width: 14.705882352941176vw;
+    margin-left: 6rem;
+    margin-right: 6rem;
 }
 
-#logo_cnpq {
-    width: 200px;
-    height: 60px;
-    margin-left: 60px;
-    margin-right: 60px;
-}
-
-#logo_fabsoftware {
+#logo_fabsoftware{
     max-height: 60px;
 }
 
 #apoio_realizacao {
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 #apoio_realizacao img {
     max-height: 70px;
-    margin: 0 30px;
+    margin: 0 3rem;
 }
 
 #titulo_apoio {
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 2.5rem;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .container {
@@ -294,56 +295,50 @@ p,
     position: relative;
 }
 
-#curso {
+#curso{
     background-color: white;
     width: 100%;
     height: auto;
     padding: 3% 7% 3% 7%;
     margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
-
-#curso h1 {
+#curso h1{
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 50px;
+    font-size: 5rem;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     text-shadow: -7px -7px black;
     text-align: left;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
-
-#curso p {
+#curso p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 2rem;
     text-align: justify;
 }
-
-#curso_sobre {
+#curso_sobre{
     display: flex;
     justify-content: space-between;
 }
-
-#curso_sobre div {
+#curso_sobre div{
     width: 48%;
 }
-
-#curso_sobre img {
+#curso_sobre img{
     width: 100%;
 }
 
 
 /* botoes */
-
 .btn {
     background-color: #e67d81;
-    box-shadow: 4px 4px #c91518;
+    box-shadow: 0.4rem 0.4rem #c91518;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 2.5rem;
     text-align: center;
-    padding: 20px 30px;
+    padding: 2rem 3rem;
     color: white;
     text-decoration: none;
     display: inline-block;
@@ -355,7 +350,7 @@ p,
 
 .btn-danger {
     background-color: #e67d81;
-    box-shadow: 4px 4px #c91518;
+    box-shadow: 0.4rem 0.4rem #c91518;
 }
 
 .btn-danger:hover {
@@ -363,5 +358,5 @@ p,
 }
 
 .mt-3 {
-    margin-top: 30px;
+    margin-top: 3rem;
 }
