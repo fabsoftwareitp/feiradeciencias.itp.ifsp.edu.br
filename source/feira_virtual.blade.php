@@ -17,26 +17,6 @@
 </section>
 
 <section class="secao bg-white">
-    <div class="container">
-        <h3 class="secao__subtitulo">Visite nossa feira virtual!</h3>
-        <div class="secao__conteudo">
-            <p>
-                Em formato totalmente online, a II MOSTRA E FEREIA DE CIÊNCIA do IFSP Itapetiniga conta com a apresentação de x trabalhos e a participação de estudantes do ensino fundamental I (E.F.I), ensino fundamental II (E.F.II) e do ensino médio (E.M).
-            </p>
-            <p>
-               Selecione um bloco para visitar:
-            </p>
-        </div>
-
-        <div class="secao__conteudo">
-            
-            <object data="/assets/images/blocos.svg"></object>
-
-        </div>
-    </div>
-</section>
-
-<section class="secao bg-white">
     <div class="container">        
 
         <figure class="secao__conteudo" id="blocos">
