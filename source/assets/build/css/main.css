@@ -329,6 +329,14 @@ p,
 .mt-3 {
     margin-top: 30px;
 }
+object{
+    width: 100%;
+}
+figcaption {
+    position: absolute;
+    top: 45%;
+    width: 50%;
+}
 .bg-white {
     background-color: white;
 }
