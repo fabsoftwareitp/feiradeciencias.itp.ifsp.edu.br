@@ -54,7 +54,7 @@ p, .p {
 .titulo_principal {
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 4rem;
+    font-size: 4.5rem;
     -webkit-text-stroke-width: 2px; /* functiona em todos os navs? */
     -webkit-text-stroke-color: black;
     text-shadow: -0.7rem -0.7rem black;
@@ -437,7 +437,7 @@ img {
 .secao__subtitulo {
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 40px;
+    font-size: 4rem;
     -webkit-text-stroke-width: 2px;
     /* functiona em todos os navs? */
     -webkit-text-stroke-color: black;
@@ -560,11 +560,13 @@ img {
         display: flex;
         flex-direction: column;
     }
-    .rodape__conteudo{
-        justify-content: space-evenly;
+    .rodape__conteudo img{
+        margin-top: 10px;
+        margin-bottom:10px ;
     }
     .imagens-rodape{
-        background-color: none;
+       background-color: none;
+       
 
     }
     .container{
@@ -572,14 +574,32 @@ img {
         
     }
     .titulo_principal{
-        font-size: 4.5rem;
         width: 100%;
 
     }
     #logo_pessoas{
         margin: 0;
     }
-    
-    
-    
+  
+
+   
+    .menu__toggle{
+        margin-top: -40px;
+
+    }
+    .secao__titulo-pos-topo-esquerda{
+        font-weight: bold;
+        font-size: 5rem;
+        
+        
+    }
+    #info-inscricoes{
+        text-align: center;
+    }
+    .secao__subtitulo{
+        width: 100%;
+        font-size: 5.7rem;
+
+    }
+
 }

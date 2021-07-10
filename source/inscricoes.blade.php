@@ -55,7 +55,7 @@
     <div class="container">
         <p id="titulo_DT" class="titulo_principal"><strong>Datas importantes</strong></p>
             <div class="datas_importantes sub_header">
-                <ul>
+                <ul id="info-inscricoes">
                     <li>até 31 de agosto - <small>Inscrições</small></li>
                     <li>04 de outubro - <small>Resultados dos trabalhos aprovados</small></li>
                     <li>de 04 de outubro a 21 de outubro às 17:00h - <small>Votação popular dos trabalhos aprovado</small></li>
@@ -67,7 +67,7 @@
 
 <section class="secao bg-white mt-3">
     <div class="container">
-        <p class="secao__titulo pos-topo-esquerda">Melhores trabalhos</p>
+        <p class="secao__titulo-pos-topo-esquerda">Melhores trabalhos</p>
         <div class="secao__conteudo">
             <p>Uma Comissão Científica, formada por especialistas das diferentes áreas do conhecimento, foi formada exclusivamente para escolher os melhores trabalhos em cada modalidade ( Ensino Fundamental - Anos Iniciais (1° a 5° ano) , Ensino Fundamental - Anos Finais (6º ao 9º ano), Ensino Médio e Técnico):</p>
 
@@ -86,7 +86,7 @@
 
 <section class="secao bg-white mt-3">
     <div class="container">
-        <p class="secao__titulo pos-topo-esquerda">Avaliadores</p>
+        <p class="secao__titulo-pos-topo-esquerda">Avaliadores</p>
         <div class="secao__conteudo">
             <p>Professores de Instituições de Ensino Superior, Pesquisadores e Estudantes de Pós-Graduação podem compor o Comitê Científico da II Mostra Científica  e  Feira de Ciências do IFSP Itapetininga que acontecerá em 2021, totalmente virtual, entre os dias 04 e 22/10 de outubro.</p>
 
