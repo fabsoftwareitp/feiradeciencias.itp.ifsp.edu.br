@@ -16,36 +16,35 @@
             <h2>Modalidade Ensino Médio e Técnico (EM)</h2>
             <p>O que será pedido na hora da inscrição:</p>
             <ul>
-                <li>Vídeo de apresentação do trabalho com no máximo 5 minutos;</li>
-                <li>Resumo expandido de 3 a 5 páginas (em modelo disponível no site do evento).</li>
-                <li>Diário de Bordo;</li>
-                <li><a href="https://eventos.itp.ifsp.edu.br/index.php/I_FEIRA/II_FEIRA_EM/index" target="_blank" >Inscreva-se na modalidade</a></li>
+                <li><p>Vídeo de apresentação do trabalho com no máximo 5 minutos;</p></li>
+                <li><p>Resumo expandido de 3 a 5 páginas (em modelo disponível no site do evento).</p></li>
+                <li><p>Diário de Bordo;</li>
+                <li><p><a href="https://eventos.itp.ifsp.edu.br/index.php/I_FEIRA/II_FEIRA_EM/index" target="_blank" >Inscreva-se na modalidade</a></p></li>
             </ul>
             <br>
 
             <h2>Modalidade Ensino Fundamental Anos Finais (6º ao 9º ano)</h2>
             <p>O que será pedido na hora da inscrição:</p>
             <ul>
-                <li>Vídeo de apresentação do trabalho com no máximo 5 minutos;</li>
-                <li>Diário de Bordo;</li>
-                <li><a href="https://eventos.itp.ifsp.edu.br/index.php/I_FEIRA/II_FEIRA_EFII " class="botao_inscricoes ">Inscreva-se na modalidade</a></li>
+                <li><p>Vídeo de apresentação do trabalho com no máximo 5 minutos;</p></li>
+                <li><p>Diário de Bordo;</p></li>
+                <li><p><a href="https://eventos.itp.ifsp.edu.br/index.php/I_FEIRA/II_FEIRA_EFII " class="botao_inscricoes ">Inscreva-se na modalidade</a></p></li>
             </ul>
             <br>
 
             <h2>Modalidade Ensino Fundamental Anos Iniciais (1° a 5° ano)</h2>
             <p>O que será pedido na hora da inscrição:</p>
             <ul>
-                <li>Vídeo de apresentação do trabalho com no máximo 5 minutos;</li>
-                <li><a href="https://eventos.itp.ifsp.edu.br/index.php/I_FEIRA/II_FEIRA_EFI ">Inscreva-se na modalidade</a></li>
+                <li><p>Vídeo de apresentação do trabalho com no máximo 5 minutos;</p></li>
+                <li><p><a href="https://eventos.itp.ifsp.edu.br/index.php/I_FEIRA/II_FEIRA_EFI ">Inscreva-se na modalidade</a></p></li>
             </ul>
 
             <p>Em cada uma das categorias os interessados poderão optar por participar da categoria especial "Meninas nas Ciências" (destinada às equipes formadas exclusivamente por meninas).</p>
             <br>
             
             <h2>Modelos</h2>
-            <ul>
-                <li><a href="/assets/downloads/termo_ciencia_autorizacao.docx">Download do modelo de autorização de uso de imagem.</a></li>
-            </ul>
+            <a href="/modelos">Conferir detalhes dos modelos.</a>
+
         </div>
     </div>
 </section>
@@ -72,9 +71,9 @@
             <p>Uma Comissão Científica, formada por especialistas das diferentes áreas do conhecimento, foi formada exclusivamente para escolher os melhores trabalhos em cada modalidade ( Ensino Fundamental - Anos Iniciais (1° a 5° ano) , Ensino Fundamental - Anos Finais (6º ao 9º ano), Ensino Médio e Técnico):</p>
 
             <ul>
-                <li>Categoria Geral</li>
-                <li>Categoria Meninas nas Ciências</li>
-                <li>Categoria Voto Popular</li>
+                <li><p>Categoria Geral</p></li>
+                <li><p>Categoria Meninas nas Ciências</p></li>
+                <li><p>Categoria Voto Popular</p></li>
             </ul>
 
             <p>Os trabalhos aprovados serão divulgados no site da II MOSTRA CIENTIFICA E FEIRA DE CIÊNCIAS DO IFSP ITAPETININGA  e ficarão disponíveis para visitação até o dia 22 de outubro.</p>

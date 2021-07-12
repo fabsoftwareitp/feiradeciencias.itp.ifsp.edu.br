@@ -44,6 +44,7 @@
                     <p class="none_menu"><a href="#">Edições Anteriores</a></p>
                     <p class="none_menu"><a href="/modelos">Modelos</a></p>
                     <p class="none_menu"><a href="/congresso">Congresso</a></p>
+                    <p class="none_menu"><a href="/congresso">Cursos</a></p>
                 </div>
     </nav>
             </nav>

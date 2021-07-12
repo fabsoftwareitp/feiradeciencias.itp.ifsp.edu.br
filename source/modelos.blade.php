@@ -4,9 +4,9 @@
 
 <section class="secao bg-white">
     <div class="container">
-        <h3 class="secao__subtitulo ">Trabalho</h3>
+        <h3 class="secao__subtitulo ">Trabalho Completo</h3>
         <div class="secao__conteudo">
-            <a href="/assets/downloads/modelo_trabalho.docx">Fazer download do modelo</a>
+            <a href="/assets/downloads/modelo_trabalho.docx">Fazer download do modelo do Trabalho Completo</a>
             <p>
                 O trabalho completo deverá conter:
                 <ol>
@@ -56,6 +56,7 @@
     <div class="container">
         <h3 class="secao__subtitulo">Vídeo</h3>
         <div class="secao__conteudo">
+            <a href="/assets/downloads/termo_ciencia_autorizacao.docx">Fazer download do modelo de autorização de uso de imagem</a>
             <p>
                 O conteúdo do vídeo é muito importante para apresentar o projeto desenvolvido. Procure, em seu vídeo, explorar os seguintes assuntos: 
                 <ul>
@@ -76,6 +77,7 @@
             <p>
                 O vídeo deve ter, no máximo, 5 (cinco) minutos de duração no total, gravado em formato digital e deverá ser armazenado no Youtube, como não listado. O link do vídeo deverá ser informado na ficha de inscrição.
             </p>
+
         </div> 
         <div class="clear"></div>   
     </div>
