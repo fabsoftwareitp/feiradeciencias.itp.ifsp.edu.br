@@ -274,6 +274,7 @@ p, .p {
     margin: auto;
     position: relative;
 }
+
 #curso{
     background-color: white;
     width: 100%;
@@ -308,6 +309,7 @@ p, .p {
 #curso_sobre img{
     width: 100%;
 }
+
 /* botoes */
 .btn {
     background-color: #e67d81;
@@ -336,6 +338,14 @@ p, .p {
 .mt-3 {
     margin-top: 30px;
 }
+object{
+    width: 100%;
+}
+figcaption {
+    position: absolute;
+    top: 45%;
+    width: 50%;
+}
 .bg-white {
     background-color: white;
 }
@@ -354,9 +364,6 @@ p {
     line-height: 1.8;
     color: #212529;
     font-weight: 300;
-}
-a {
-    font-size: 17px;
 }
 @media screen and (min-width:980px) {
     a {
@@ -381,7 +388,7 @@ img {
     display: flex;
     margin: auto;
     position: relative;
-    margin-top: 20px;
+    margin-top: 5px;
     margin-bottom: 20px;
     padding-bottom: 20px;
     background-color: white;
@@ -397,7 +404,6 @@ img {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-around;
 }
 .header__nav a {
     display: block;
@@ -495,8 +501,9 @@ img {
 .menu__toggle {
     position: absolute;
     right: 25px;
-    margin-top: 30px;
     cursor: pointer;
+    margin-top: 20px;
+    z-index: 12;
 }
 .menu__checkbox {
     display: none;
@@ -518,7 +525,44 @@ img {
         width: 100%;
     }
 }
-#menu__checkbox:checked~ul.topico_menu li.none_menu {
+@-webkit-keyframes slidein2 {
+    from {
+        margin-left: 0%;
+        width: 300%;
+        height: 0vh;
+    }
+    to {
+        margin-right: 5.3%;
+        width: 100%;
+        height: 100vh;
+    }
+}
+@keyframes slidein2 {
+    from {
+        margin-left: 0%;
+        width: 300%;
+        height: 0vh;
+    }
+    to {
+        margin-right: 5.3%;
+        width: 100%;
+        height: 100vh;
+    }
+}
+#menu__checkbox:checked~label.menu__toggle {
+    position: fixed;
+}
+#menu__checkbox:checked~div.topico_menu {
+    position: fixed;
+    -webkit-animation-duration: 1.2s;
+            animation-duration: 1.2s;
+    -webkit-animation-name: slidein2;
+            animation-name: slidein2;
+    height: 100vh;
+    width: 100%;
+    z-index: 11;
+}
+#menu__checkbox:checked~div.topico_menu p.none_menu {
     display: block;
     -webkit-animation-duration: 2s;
             animation-duration: 2s;
@@ -527,11 +571,13 @@ img {
 }
 #menu__checkbox:checked~label.menu__toggle .fechar_menu {
     display: block;
+    z-index: 10;
 }
 #menu__checkbox:checked~label.menu__toggle .barras_menu {
     display: none;
+    z-index: 10;
 }
-@media screen and (min-width:980px) {
+@media screen and (min-width:975px) {
     .menu__toggle {
         display: none;
     }
@@ -542,6 +588,7 @@ img {
         display: block;
     }
 }
+
 @media (max-width:1000px) {
     html{
         font-size: 40%;
@@ -600,6 +647,41 @@ img {
         width: 100%;
         font-size: 5.7rem;
 
+    }
+
+
+@media screen and (max-width:975px) {
+    body {
+        overflow: hidden;
+    }
+    a {
+        font-size: 30px;
+    }
+    .espacamento_menu {
+        margin-top: 80px;
+    }
+    .topico_menu {
+        -webkit-text-stroke-width: 1px;
+        left: 0%;
+        top: 0%;
+        background-color: #379936;
+    }
+}
+@media screen and (max-width:320px) {
+    body {
+        overflow: hidden;
+    }
+    a {
+        font-size: 25px;
+    }
+    .espacamento_menu {
+        margin-top: 65px;
+    }
+    .topico_menu {
+        -webkit-text-stroke-width: 1px;
+        left: 0%;
+        top: 0%;
+        background-color: #3d3699;
     }
 
 }
