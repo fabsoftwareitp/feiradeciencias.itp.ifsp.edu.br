@@ -44,8 +44,8 @@
     <div class="container">
         <p id="titulo_comissao" class="titulo_principal"><strong>Comissão Organizadora</strong></p>
         <div class="display_flex sub_header">
-            <div>
-                <ul class="texto p">
+            <div id="juntar-partes">
+                <ul id="texto-p">
                     <li>Alessandra Luzia Da Roz</li>
                     <li>Alexandre Shigunov Neto</li>
                     <li>Carlos Henrique da Silva Santos</li>

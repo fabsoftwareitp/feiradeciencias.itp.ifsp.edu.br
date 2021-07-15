@@ -117,7 +117,7 @@ img {
 .secao__subtitulo {
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 40px;
+    font-size: 4rem;
     -webkit-text-stroke-width: 2px;
     /* functiona em todos os navs? */
     -webkit-text-stroke-color: black;
