@@ -2,62 +2,11 @@
 
 @section('body')
 
-<section class="secao bg-white">
-    <div class="container">
-        <h3 class="secao__subtitulo ">Trabalho Completo</h3>
-        <div class="secao__conteudo">
-            <a href="/assets/downloads/modelo_trabalho.docx">Fazer download do modelo do Trabalho Completo</a>
-            <p>
-                O trabalho completo deverá conter:
-                <ol>
-                    <li><p>
-                        <strong>Introdução:</strong> 
-                        Neste item devemos fazer uma descrição clara da questão (problema) a ser investigada e justificar a sua relevância. 
-                        Qual é o problema?
-                        Quais são as limitações/abrangência da pesquisa? (tempo, custo, ambiental, etc.)
-                        Como/Por que ocorre?
-                        Qual a importância da pesquisa para os autores, para a sociedade, para a área de conhecimento. Explicar o motivo de escolherem tal trabalho.
-                    </p></li>
-                    <li><p>
-                        <strong>Fundamentação Teórica:</strong>
-                        Neste item devemos apresentar o estado da arte do seu projeto, mostrando as principais referências obre o assunto.
-                    </p></li>
-                    <li><p>
-                        <strong>Objetivos da Pesquisa:</strong>
-                        Neste item devemos explicar, de maneira clara, o que pretendemos investigar com o nosso trabalho de pesquisa. Ou seja, aonde pretendemos chegar com esse trabalho, quais contribuições queremos que ele traga, qual problema ele pretende resolver. Pode-se colocar objetivo geral e objetivos específicos, este último usando itens.
-                    </p></li>
-                    <li><p>
-                        <strong>Metodologia da Pesquisa:</strong>
-                        Neste item devemos escrever onde e como será conduzida a pesquisa, as variáveis que serão estudadas, os métodos que serão adotados para análise das variáveis e os procedimentos e testes que serão conduzidos para se obter os resultados e chegar a uma conclusão.
-                        Quais recursos (físicos e financeiros) serão utilizados para desenvolver o projeto?
-                    </p></li>
-                    <li><p>
-                        <strong>Resultados:</strong>
-                        Neste item devemos dissertar sobre quais são os resultados esperados para esse projeto, ou, quais foram os resultados obtidos (parciais ou finais) até o momento.
-                        Todos os resultados obtidos na realização da pesquisa devem ser apresentados em ordem cronológica, de forma descritiva, podendo incluir figuras, tabelas ou gráficos. A apresentação das figuras, gráficos e tabelas deve obedecer às normas ABNT (Associação Brasileira de Normas Técnicas). Os resultados poderão vir junto com uma discussão.
-                    </p></li>
-                    <li><p>
-                        <strong>Referẽncias:</strong>
-                        Indicar os livros, sites, revistas, teses, trabalhos científicos, jornais, reportagens, etc, que foram utilizados para o levantamento e escolha do tema, e também os utilizados para o desenvolvimento do projeto. Empregar as regras da ABNT. Listar somente as principais, no limite de cinco referências. Devem ser elaboradas de acordo com a ABNT.
-                    </p></li>
-                    
-                </ol>
-            </p>
-            <p>
-                O texto será digitado em fonte Arial 12, com espaçamento simples entre linhas, alinhamento de parágrafo justificado e recuo de primeira linha de 1,25cm, 
-                e deve ter entre 3 e 5 páginas, incluindo figuras, tabelas e fotos (todas as imagens devem ser nítidas). 
-            </p>
-        </div>
-        <div class="clear"></div>    
-    </div>
-</section>
 
 <section class="secao bg-white">
     <div class="container">
         <h3 class="secao__subtitulo">Vídeo</h3>
         <div class="secao__conteudo">
-            <a href="/assets/downloads/termo_ciencia_autorizacao.docx">Fazer download do modelo de autorização de uso de imagem</a>
-            <p>
                 O conteúdo do vídeo é muito importante para apresentar o projeto desenvolvido. Procure, em seu vídeo, explorar os seguintes assuntos: 
                 <ul>
                     <li><p>Como surgiu a ideia do projeto?</p></li>
@@ -99,13 +48,55 @@
                 </ol>
             </p>
             <p>
-                O Diário de Bordo deverá estar em formato digital ou digitalizado/fotografado e convertido caso seja feito em um caderno ou outro meio físico. 
-                As imagens/arquivos devem estar em um único arquivo em ordem cronológica, ter a extensão pdf e tamanho máximo de 2 MB.
+                O Diário de Bordo deverá estar em formato digital ou digitalizado/fotografado e convertido caso seja feito em um caderno ou outro meio físico. As imagens/arquivos devem estar em um único arquivo em ordem cronológica, ter a extensão pdf e tamanho máximo de 2 MB.
             </p>
             <p>
                 Os avaliadores verificarão os Diários de Bordo para compor as notas dos projetos de EF II e EM.
             </p>
         </div>    
+    </div>
+</section>
+
+<section class="secao bg-white">
+    <div class="container">
+        <h3 class="secao__subtitulo ">Trabalho Completo</h3>
+        <div class="secao__conteudo">
+            <a href="/assets/downloads/modelo_trabalho.docx">Fazer download do modelo do Trabalho Completo</a>
+            <p>
+                O trabalho completo deverá conter:
+                <ol>
+                    <li><p>
+                        <strong>Introdução:</strong> 
+                        Neste item devemos fazer uma descrição clara da questão (problema) a ser investigada e justificar a sua relevância. Qual é o problema? Quais são as limitações/abrangência da pesquisa? (tempo, custo, ambiental, etc.) Como/Por que ocorre? Qual a importância da pesquisa para os autores, para a sociedade, para a área de conhecimento. Explicar o motivo de escolherem tal trabalho.
+                    </p></li>
+                    <li><p>
+                        <strong>Fundamentação Teórica:</strong>
+                        Nesta parte devemos apresentar o estado da arte do seu projeto, mostrando as principais referências obre o assunto.
+                    </p></li>
+                    <li><p>
+                        <strong>Objetivos da Pesquisa:</strong>
+                        Neste trecho do trabalho devemos explicar, de maneira clara, o que pretendemos investigar com o nosso trabalho de pesquisa. Ou seja, aonde pretendemos chegar com esse trabalho, quais contribuições queremos que ele traga, qual problema ele pretende resolver. Pode-se colocar objetivo geral e objetivos específicos, este último usando itens.
+                    </p></li>
+                    <li><p>
+                        <strong>Metodologia da Pesquisa:</strong>
+                        Neste ponto devemos escrever onde e como será conduzida a pesquisa, as variáveis que serão estudadas, os métodos que serão adotados para análise das variáveis e os procedimentos e testes que serão conduzidos para se obter os resultados e chegar a uma conclusão. Quais recursos (físicos e financeiros) serão utilizados para desenvolver o projeto?
+                    </p></li>
+                    <li><p>
+                        <strong>Resultados:</strong>
+                        Neste tópico devemos dissertar sobre quais são os resultados esperados para esse projeto, ou, quais foram os resultados obtidos (parciais ou finais) até o momento. Todos os resultados obtidos na realização da pesquisa devem ser apresentados em ordem cronológica, de forma descritiva, podendo incluir figuras, tabelas ou gráficos. A apresentação das figuras, gráficos e tabelas deve obedecer às normas ABNT (Associação Brasileira de Normas Técnicas). Os resultados poderão vir junto com uma discussão.
+                    </p></li>
+                    <li><p>
+                        <strong>Referẽncias:</strong>
+                        Indicar os livros, sites, revistas, teses, trabalhos científicos, jornais, reportagens, etc, que foram utilizados para o levantamento e escolha do tema, e também os utilizados para o desenvolvimento do projeto. Empregar as regras da ABNT. Listar somente as principais, no limite de cinco referências. Devem ser elaboradas de acordo com a ABNT.
+                    </p></li>
+                    
+                </ol>
+            </p>
+            <p>
+                O texto será digitado em arquivo Word, extensão .doc, fonte Arial 12, com espaçamento simples entre linhas, alinhamento de parágrafo justificado e recuo de primeira linha de 1,25cm, e deve ter entre 3 e 5 páginas, incluindo figuras, tabelas e fotos (todas as imagens devem ser nítidas).
+            </p>
+        </div>
+        <div class="clear"></div>    
     </div>
 </section>
 

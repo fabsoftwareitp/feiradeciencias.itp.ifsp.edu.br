@@ -274,7 +274,6 @@ p, .p {
     margin: auto;
     position: relative;
 }
-
 #curso{
     background-color: white;
     width: 100%;
@@ -309,7 +308,6 @@ p, .p {
 #curso_sobre img{
     width: 100%;
 }
-
 /* botoes */
 .btn {
     background-color: #e67d81;
@@ -588,7 +586,40 @@ img {
         display: block;
     }
 }
-
+@media screen and (max-width:975px) {
+    body {
+        overflow: hidden;
+    }
+    a {
+        font-size: 30px;
+    }
+    .espacamento_menu {
+        margin-top: 80px;
+    }
+    .topico_menu {
+        -webkit-text-stroke-width: 1px;
+        left: 0%;
+        top: 0%;
+        background-color: #379936;
+    }
+}
+@media screen and (max-width:320px) {
+    body {
+        overflow: hidden;
+    }
+    a {
+        font-size: 25px;
+    }
+    .espacamento_menu {
+        margin-top: 65px;
+    }
+    .topico_menu {
+        -webkit-text-stroke-width: 1px;
+        left: 0%;
+        top: 0%;
+        background-color: #3d3699;
+    }
+}
 @media (max-width:1000px) {
     html{
         font-size: 40%;
@@ -647,41 +678,6 @@ img {
         width: 100%;
         font-size: 5.7rem;
 
-    }
-
-
-@media screen and (max-width:975px) {
-    body {
-        overflow: hidden;
-    }
-    a {
-        font-size: 30px;
-    }
-    .espacamento_menu {
-        margin-top: 80px;
-    }
-    .topico_menu {
-        -webkit-text-stroke-width: 1px;
-        left: 0%;
-        top: 0%;
-        background-color: #379936;
-    }
-}
-@media screen and (max-width:320px) {
-    body {
-        overflow: hidden;
-    }
-    a {
-        font-size: 25px;
-    }
-    .espacamento_menu {
-        margin-top: 65px;
-    }
-    .topico_menu {
-        -webkit-text-stroke-width: 1px;
-        left: 0%;
-        top: 0%;
-        background-color: #3d3699;
     }
 
 }
