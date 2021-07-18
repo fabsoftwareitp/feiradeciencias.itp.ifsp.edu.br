@@ -11,3 +11,7 @@ figcaption {
     top: 45%;
     width: 50%;
 }
+
+#feira_mapa_celular{
+    display: none;
+}
