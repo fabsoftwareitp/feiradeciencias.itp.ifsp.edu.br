@@ -7,7 +7,8 @@
         <h3 class="secao__subtitulo">Programação do evento</h3>
         <div class="secao__conteudo">
             <p>
-                A <strong>II Mostra Científica e Feira de Ciências do IFSP Virtual com apresentação dos trabalhos aprovados pela Comissão Científica de Avaliadores</strong> ocorrerá entre os dias <strong>04 de 22 de outubro de 2021</strong> no <a href="https://feiradeciencias.itp.ifsp.edu.br/">site do evento</a>.
+                A <strong>II Mostra Científica e Feira de Ciências do IFSP Virtual com apresentação dos trabalhos aprovados pela Comissão Científica de Avaliadores</strong> ocorrerá entre os dias <strong>04 de 22 de outubro de 2021</strong> 
+                no <a href="https://www.youtube.com/channel/UCEMUJSUnnvmrRQoD28-iGbQ" target="_blank">canal do grupo de Informática</a> do Instituto Federal de Educação, Ciência e Tecnologia de São Paulo Câmpus Itapetininga.
             </p>
             <p>
                 O período de <strong>votação popular dos melhores trabalhos</strong> ocorrerá entre os dias <strong>04 de 21 de outubro de 2021 até às 17:00h</strong>, também no site do evento.

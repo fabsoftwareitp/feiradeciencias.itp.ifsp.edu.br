@@ -13,7 +13,7 @@
             <img class="secao__imagem-direita" src="/assets/images/montagem.png" alt="Fotos da edição anterior da feira">
             <p class="secao__texto">A <strong>II MOSTRA CIENTÍFICA E FEIRA DE CIÊNCIAS DO IFSP ITAPETININGA</strong> é um evento idealizado e realizado pelas Coordenadoria de Pesquisa, Inovação e Pós-Graduação, Diretoria Adjunta Educacional e Coordenadoria de Extensão do Câmpus Itapetininga do IFSP.</p>
 
-            <a href="/regulamento">Saiba mais detalhes sobre a feira!</a>
+            <a href="/regulamento">Saiba mais detalhes sobre a feira e Regulamento!</a>
         </div>
         <div class="clear"></div>
     </div>
