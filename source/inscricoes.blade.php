@@ -17,9 +17,9 @@
             <p>O que será pedido na hora da inscrição:</p>
             <ul>
                 <li><p>Vídeo de apresentação do trabalho com no máximo 5 minutos;</p></li>
-                <li><p>Resumo expandido de 3 a 5 páginas (em modelo disponível no site do evento).</p></li>
+                <li><p>Resumo expandido de 3 a 5 páginas (em modelo disponível no site do evento);</p></li>
                 <li><p>Diário de Bordo;</li>
-                <li><p><a href="https://eventos.itp.ifsp.edu.br/index.php/I_FEIRA/II_FEIRA_EM/index" target="_blank" >Inscreva-se na modalidade</a></p></li>
+                <a href="https://eventos.itp.ifsp.edu.br/index.php/FEIRA/II_FEIRA_EM" target="_blank" >Inscreva-se na modalidade</a>
             </ul>
             <br>
 
@@ -28,7 +28,7 @@
             <ul>
                 <li><p>Vídeo de apresentação do trabalho com no máximo 5 minutos;</p></li>
                 <li><p>Diário de Bordo;</p></li>
-                <li><p><a href="https://eventos.itp.ifsp.edu.br/index.php/I_FEIRA/II_FEIRA_EFII " class="botao_inscricoes ">Inscreva-se na modalidade</a></p></li>
+                <a href="https://eventos.itp.ifsp.edu.br/index.php/FEIRA/II_FEIRA_EFII" target="_blank">Inscreva-se na modalidade</a>
             </ul>
             <br>
 
@@ -36,15 +36,44 @@
             <p>O que será pedido na hora da inscrição:</p>
             <ul>
                 <li><p>Vídeo de apresentação do trabalho com no máximo 5 minutos;</p></li>
-                <li><p><a href="https://eventos.itp.ifsp.edu.br/index.php/I_FEIRA/II_FEIRA_EFI ">Inscreva-se na modalidade</a></p></li>
+                <a href="https://eventos.itp.ifsp.edu.br/index.php/FEIRA/II_FEIRA_EFI"target="_blank" >Inscreva-se na modalidade</a>
             </ul>
+            
 
             <p>Em cada uma das categorias os interessados poderão optar por participar da categoria especial "Meninas nas Ciências" (destinada às equipes formadas exclusivamente por meninas).</p>
             <br>
             
             <h2>Modelos</h2>
             <a href="/modelos">Conferir detalhes dos modelos.</a>
+            
 
+        </div>
+    </div>
+</section>
+
+<section class="secao bg-white">
+    <div class="container">
+        <h3 class="secao__subtitulo">Outros documentos necessários</h3>
+        <div class="secao__conteudo">
+        <ul>
+                <li>
+                    <p>
+                        <strong>Termo de ciência e autorização:</strong> 
+                        Cada projeto enviado deve ter uma única autorização de imagem em que constem todos os componentes do grupo, incluindo estudantes, orientador/professor e ou coorientador, se for o caso. No caso de menores de idade, os dados e assinatura deve ser do responsável legal. 
+                        Aconselha-se coletar as assinaturas e depois converter o arquivo de imagem em pdf. O tamanho máximo permitido é de 1 MB. 
+                    </p>
+                    <a href="/assets/downloads/termo_ciencia_autorizacao.docx">Fazer download do modelo de autorização de uso de imagem</a>
+                </li>
+
+                <li>
+                    <p>
+                        <strong>Imagens componentes do grupo:</strong>
+                        Esta imagem, composta por todos os integrantes da equipe, incluindo estudantes, orientador/professor e ou coorientador, será utilizada durante a II Mostra e Feira de Ciências e na Cerimônia de Premiação.
+                        Cada projeto enviado deve ter um único arquivo com a extensão .pdf ou .jpg. de tamanho máximo de 1MB que contenha a foto da equipe. Se não possuir uma foto com todos os autores, vocês podem enviar uma montagem.
+                        Dimensões da foto: A foto deve ser quadrada, com dimensões máximas de 1080px por 1080px.
+                    </p>
+                </li>
+            </ul>
         </div>
     </div>
 </section>
@@ -55,9 +84,9 @@
         <p id="titulo_DT" class="titulo_principal"><strong>Datas importantes</strong></p>
             <div class="datas_importantes sub_header">
                 <ul id="info-inscricoes">
-                    <li>até 31 de agosto - <small>Inscrições</small></li>
+                    <li>31 de agosto - <small>Fim das inscrições</small></li>
                     <li>04 de outubro - <small>Resultados dos trabalhos aprovados</small></li>
-                    <li>de 04 de outubro a 21 de outubro às 17:00h - <small>Votação popular dos trabalhos aprovado</small></li>
+                    <li>04 de outubro a 21 de outubro às 17:00h - <small>Votação popular dos trabalhos aprovado</small></li>
                 </ul>
             </div>
         </div>
@@ -105,27 +134,4 @@
     </div>
 </section>
 
-
-<!--AVALIADORES-->
-<section class="secao bg-white mt-3">
-    <div class="container">
-        <h3 class="secao__subtitulo">Outros documentos necessários</h3>
-        <div class="secao__conteudo">
-            <h3>TERMO DE CIÊNCIA E AUTORIZAÇÃO</h3>
-            <a href="/assets/downloads/termo_ciencia_autorizacao.docx">Fazer download do modelo de autorização de uso de imagem</a>
-
-            <p>Cada projeto enviado deve ter uma única autorização de imagem em que constem todos os componentes do grupo, incluindo estudantes, orientador/professor e ou coorientador, se for o caso. No caso de menores de idade, os dados e assinatura deve ser do responsável legal.</p>
-
-            <p>Aconselha-se coletar as assinaturas e depois converter o arquivo de imagem em pdf. O tamanho máximo permitido é de 1 MB. </p>
-
-            <h3>IMAGEM COMPONENTES DO GRUPO</h3>
-            
-            <p>Esta imagem, composta por todos os integrantes da equipe, incluindo estudantes, orientador/professor e ou coorientador, será utilizada durante a II Mostra e Feira de Ciências e na Cerimônia de Premiação.</p>
-
-            <p>Cada projeto enviado deve ter um único arquivo com a extensão .pdf ou .jpg. de tamanho máximo de 1MB que contenha a foto da equipe. Se não possuir uma foto com todos os autores, vocês podem enviar uma montagem.</p>
-
-            <p>Dimensões da foto: A foto deve ser quadrada, com dimensões máximas de 1080px por 1080px.</p>
-        </div>
-    </div>
-</section>
 @endsection

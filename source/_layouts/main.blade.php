@@ -61,8 +61,12 @@
         <footer class="rodape">
             <h6 class="rodape__titulo">Apoio e Realização:</h6>
             <div class="rodape__conteudo">
-                <img src="/assets/images/logo_ifsp.png" class="imagens-rodape" alt="IFSP Itapetininga">
-                <img src="/assets/images/logo_cnpq.png" class="imagens-rodape" alt="CNPQ">
+                <a href="https://itp.ifsp.edu.br/" target="_blank">
+                    <img src="/assets/images/logo_ifsp.png" class="imagens-rodape" alt="IFSP Itapetininga">
+                </a>
+                <a href="https://www.gov.br/cnpq/pt-br" target="_blank">
+                    <img src="/assets/images/logo_cnpq.png" class="imagens-rodape" alt="CNPQ">
+                </a>
                 <a href="https://ic.itp.ifsp.edu.br/fabsoftware/" target="_blank">
                     <img src="/assets/images/logo_fabsoftware.png" class="imagens-rodape" alt="Fábrica de Software Acadêmica">
                 </a>
