@@ -13,7 +13,7 @@
             </p>
             <p>
                 Cada trabalho pode ter no máximo 4 autores.
-                O trabalho completo deve ter entre 3 e 5 páginas com espaço simples, conforme modelo disponível na <a href="#">página do evento</a>
+                O trabalho completo deve ter entre 3 e 5 páginas com espaço simples, conforme modelo disponível na <a href="https://eventos.itp.ifsp.edu.br/index.php/CEC/CPECiencias"  target="_blank">página do evento</a>
                 e serão aceitos em PORTUGUÊS E ESPANHOL.
                 O evento contará com a apresentação de trabalhos na forma ONLINE.
             </p>
