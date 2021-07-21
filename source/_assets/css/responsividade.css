@@ -4,6 +4,13 @@
     html{
         font-size: 40%;
     }
+    #feira_mapa_computador{
+        display: none;
+    }
+    #feira_mapa_celular{
+        display: block;
+    }
+    
 
 }
 
@@ -49,8 +56,6 @@
     .secao__titulo-pos-topo-esquerda{
         font-weight: bold;
         font-size: 5rem;
-        
-        
     }
     #info-inscricoes{
         text-align: center;

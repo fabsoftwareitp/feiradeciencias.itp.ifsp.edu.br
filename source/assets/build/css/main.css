@@ -344,6 +344,9 @@ figcaption {
     top: 45%;
     width: 50%;
 }
+#feira_mapa_celular{
+    display: none;
+}
 .bg-white {
     background-color: white;
 }
@@ -624,6 +627,13 @@ img {
     html{
         font-size: 40%;
     }
+    #feira_mapa_computador{
+        display: none;
+    }
+    #feira_mapa_celular{
+        display: block;
+    }
+    
 
 }
 @media (max-width:400px) {
@@ -668,8 +678,6 @@ img {
     .secao__titulo-pos-topo-esquerda{
         font-weight: bold;
         font-size: 5rem;
-        
-        
     }
     #info-inscricoes{
         text-align: center;
