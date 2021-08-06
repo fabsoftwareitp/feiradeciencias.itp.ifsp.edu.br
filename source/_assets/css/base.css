@@ -110,7 +110,7 @@ img {
     -webkit-text-stroke-width: 2px;
     /* functiona em todos os navs? */
     -webkit-text-stroke-color: black;
-    text-shadow: -5px -4px black;
+    text-shadow: -0.5rem -0.4rem black;
     font-weight: 800;
 }
 
@@ -271,9 +271,6 @@ img {
 }
 
 @media screen and (max-width:975px) {
-    body {
-        overflow: hidden;
-    }
     a {
         font-size: 30px;
     }
