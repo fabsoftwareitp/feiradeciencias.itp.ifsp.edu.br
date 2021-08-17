@@ -7,6 +7,8 @@
         <h3 class="secao__subtitulo">Inscrições</h3>
         <div class="secao__conteudo">
 
+            <a href="/assets/downloads/tutorial_inscricao.pdf" target="_blank">Vizualisar tutorial de inscrição</a>
+
             <p>A II Mostra Científica e Feira de Ciências do IFSP Itapetininga que acontecerá em 2021, totalmente virtual, entre os dias 04 e 22/10 de outubro, receberá trabalhos de estudantes do Ensino Fundamental - Anos Iniciais (1° a 5° ano), Ensino Fundamental - Anos Finais (6º ao 9º ano), Ensino Médio e Técnico, em todas as áreas do Conhecimento.</p>
             <p>A inscrição de trabalhos no evento é <strong>totalmente gratuita</strong> e vai <strong>até o dia 31 de agosto</strong>!!</p>
             <p> Para fazer a inscrição de seu trabalho para participar da II Mostra Científica e Feira de Ciências do IFSP Itapetininga clique nos botões seguintes de acordo com seu ano escolar:</p>
