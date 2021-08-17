@@ -17,7 +17,7 @@
             
             <br>
             
-            <h2>Está com dúvidas de como inscrever seu trabalho? Confira o tutorial de <a href="/assets/downloads/tutorial_inscricao.pdf" target="_blank">COMO FAZER INSCRIÇÃO DE PROJETOS NA FEIRA DE CIÊNCIAS</a></h2>
+            <h2>Está com dúvidas de como inscrever seu trabalho? <br> <a href="/assets/downloads/tutorial_inscricao.pdf" target="_blank">Confira o tutorial que preparamos pra você!</a></h2>
             
         </div>
         <div class="clear"></div>
