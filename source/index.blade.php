@@ -15,9 +15,9 @@
             
             <a href="/regulamento">Saiba mais detalhes sobre a feira e Regulamento!</a>
             
-            <br>
+            <br><br>
             
-            <h2>Está com dúvidas de como inscrever seu trabalho? <br> <a href="/assets/downloads/tutorial_inscricao.pdf" target="_blank">Confira o tutorial que preparamos pra você!</a></h2>
+            <h2>Está com dúvidas de como inscrever seu trabalho? <a href="/assets/downloads/tutorial_inscricao.pdf" target="_blank">Confira o tutorial que preparamos pra você!</a></h2>
             
         </div>
         <div class="clear"></div>
