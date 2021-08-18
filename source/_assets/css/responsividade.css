@@ -14,7 +14,7 @@
 
 }
 
-@media (max-width:400px) {
+@media (max-width:500px) {
     
     html{
         font-size: 35%
@@ -25,6 +25,13 @@
     .header,.topico_menu{
         display: flex;
         flex-direction: column;
+    }
+    .secao__subtitulo{
+        text-shadow: -0.5rem -0.4rem black;
+
+    }
+    a{
+        font-size: 4rem;
     }
     .rodape__conteudo img{
         margin-top: 10px;
@@ -64,6 +71,9 @@
         width: 100%;
         font-size: 5.7rem;
 
+    }
+    h2{
+        font-size: 4rem;
     }
 
 }

@@ -149,7 +149,7 @@ p, .p {
     font-size: 6rem;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
-    text-shadow: -7px -7px black;
+    text-shadow: -0.7rem -0.7rem black;
     text-align: center;
 }
 #transmissao {
@@ -165,7 +165,7 @@ p, .p {
     font-size: 6rem;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #c91518;
-    text-shadow: -7px -7px #e67d81;
+    text-shadow: -0.7rem -0.7rem #e67d81;
     position: absolute;
     top:-4.2rem;
     font-weight: 800;
@@ -219,7 +219,7 @@ p, .p {
     font-size: 6rem;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #379936;
-    text-shadow: -7px -7px #8bcc8a;
+    text-shadow: -0.7rem -0.7rem #8bcc8a;
     text-align: end;
     margin-right: 6rem;
 }
@@ -289,7 +289,7 @@ p, .p {
     font-size: 5rem;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
-    text-shadow: -7px -7px black;
+    text-shadow: -0.7rem -0.7rem black;
     text-align: left;
     margin-bottom: 3rem;
 }
@@ -438,7 +438,7 @@ img {
     -webkit-text-stroke-width: 2px;
     /* functiona em todos os navs? */
     -webkit-text-stroke-color: black;
-    text-shadow: -5px -4px black;
+    text-shadow: -0.5rem -0.4rem black;
     font-weight: 800;
 }
 .secao__subtitulo {
@@ -590,9 +590,6 @@ img {
     }
 }
 @media screen and (max-width:975px) {
-    body {
-        overflow: hidden;
-    }
     a {
         font-size: 30px;
     }
@@ -636,7 +633,7 @@ img {
     
 
 }
-@media (max-width:400px) {
+@media (max-width:500px) {
     
     html{
         font-size: 35%
@@ -647,6 +644,13 @@ img {
     .header,.topico_menu{
         display: flex;
         flex-direction: column;
+    }
+    .secao__subtitulo{
+        text-shadow: -0.5rem -0.4rem black;
+
+    }
+    a{
+        font-size: 4rem;
     }
     .rodape__conteudo img{
         margin-top: 10px;
@@ -686,6 +690,9 @@ img {
         width: 100%;
         font-size: 5.7rem;
 
+    }
+    h2{
+        font-size: 4rem;
     }
 
 }

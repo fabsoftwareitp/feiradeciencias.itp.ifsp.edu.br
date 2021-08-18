@@ -153,7 +153,7 @@ p, .p {
     font-size: 6rem;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
-    text-shadow: -7px -7px black;
+    text-shadow: -0.7rem -0.7rem black;
     text-align: center;
 }
 
@@ -171,7 +171,7 @@ p, .p {
     font-size: 6rem;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #c91518;
-    text-shadow: -7px -7px #e67d81;
+    text-shadow: -0.7rem -0.7rem #e67d81;
     position: absolute;
     top:-4.2rem;
     font-weight: 800;
@@ -231,7 +231,7 @@ p, .p {
     font-size: 6rem;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #379936;
-    text-shadow: -7px -7px #8bcc8a;
+    text-shadow: -0.7rem -0.7rem #8bcc8a;
     text-align: end;
     margin-right: 6rem;
 }
@@ -311,7 +311,7 @@ p, .p {
     font-size: 5rem;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
-    text-shadow: -7px -7px black;
+    text-shadow: -0.7rem -0.7rem black;
     text-align: left;
     margin-bottom: 3rem;
 }
