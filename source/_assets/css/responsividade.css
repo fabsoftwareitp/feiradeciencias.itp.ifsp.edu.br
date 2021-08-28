@@ -1,80 +1,65 @@
-
-
 @media (max-width:1000px) {
-    html{
-        font-size: 40%;
+    html {
+        font-size: 55%;
     }
-    #feira_mapa_computador{
+    #feira_mapa_computador {
         display: none;
     }
-    #feira_mapa_celular{
+    #feira_mapa_celular {
         display: block;
     }
-    
-
 }
 
 @media (max-width:500px) {
-    
-    html{
+    html {
         font-size: 35%
     }
-    .header,.mt-3{
+    .header,
+    .mt-3 {
         width: 100%;
     }
-    .header,.topico_menu{
+    .header,
+    .topico_menu {
         display: flex;
         flex-direction: column;
     }
-    .secao__subtitulo{
+    .secao__subtitulo {
         text-shadow: -0.5rem -0.4rem black;
-
     }
-    a{
+    a {
         font-size: 4rem;
     }
-    .rodape__conteudo img{
+    .rodape__conteudo img {
         margin-top: 10px;
-        margin-bottom:10px ;
+        margin-bottom: 10px;
     }
-    .imagens-rodape{
-       background-color: none;
-       
-
+    .imagens-rodape {
+        background-color: none;
     }
-    .container{
+    .container {
         width: 90%;
-        
     }
-    .titulo_principal{
+    .titulo_principal {
         width: 100%;
-
     }
-    #logo_pessoas{
+    #logo_pessoas {
         margin: 0;
     }
-  
-
-   
-    .menu__toggle{
+    .menu__toggle {
         margin-top: -40px;
-
     }
-    .secao__titulo-pos-topo-esquerda{
+    .secao__titulo-pos-topo-esquerda {
         font-weight: bold;
         font-size: 5rem;
     }
-    #info-inscricoes{
+    #info-inscricoes {
         text-align: center;
     }
-    .secao__subtitulo{
+    .secao__subtitulo {
         width: 100%;
         font-size: 5.7rem;
-
     }
-    h2{
+    h2 {
         font-size: 4rem;
     }
-
 }
-
