@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&display=swap);
 
 /* Custom fonts for this template */
-html{
+html {
     font-size: 62.5%;
 }
 body {
@@ -10,7 +10,8 @@ body {
     background-image: linear-gradient(#f1f1f1 1.1px, transparent 1.1px), linear-gradient(to right, #f1f1f1 1.1px, #fcfcfc 1.1px);
     background-size: 30px 30px;
 }
-p, .p {
+p,
+.p {
     font-family: 'Open Sans', sans-serif;
     font-size: 2.5rem;
     text-align: justify;
@@ -25,7 +26,7 @@ p, .p {
     display: flex;
     justify-content: space-between;
 }
-#logo_ifsp{
+#logo_ifsp {
     width: 14.705882352941176vw;
     margin-top: 1rem;
     margin-left: 1.5rem;
@@ -55,7 +56,8 @@ p, .p {
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 4.5rem;
-    -webkit-text-stroke-width: 2px; /* functiona em todos os navs? */
+    -webkit-text-stroke-width: 2px;
+    /* functiona em todos os navs? */
     -webkit-text-stroke-color: black;
     text-shadow: -0.7rem -0.7rem black;
     font-weight: 800;
@@ -116,7 +118,7 @@ p, .p {
 }
 .datas_importantes li {
     line-height: 1.8;
-    padding:1rem;
+    padding: 1rem;
     font-family: 'Open Sans', sans-serif;
     font-size: 2.5rem;
     font-weight: bold;
@@ -125,20 +127,19 @@ p, .p {
     float: left;
 }
 #logo_cientistas {
-    width:29.41176470588235vw;
+    width: 29.41176470588235vw;
     margin-top: -2.3rem;
 }
-#comissao{
+#comissao {
     background-color: white;
     margin-top: 10rem;
-
 }
-#titulo_comissao{
+#titulo_comissao {
     text-align: left;
     position: absolute;
-    top:-5.2rem;
+    top: -5.2rem;
 }
-#programacao{
+#programacao {
     margin-top: 10rem;
     background-color: white;
     padding-bottom: 15rem;
@@ -167,7 +168,7 @@ p, .p {
     -webkit-text-stroke-color: #c91518;
     text-shadow: -0.7rem -0.7rem #e67d81;
     position: absolute;
-    top:-4.2rem;
+    top: -4.2rem;
     font-weight: 800;
 }
 .youtube_img {
@@ -176,12 +177,11 @@ p, .p {
 }
 .youtube_text {
     padding-top: 6rem;
-
 }
 #botao_transmissao {
     background-color: #e67d81;
     box-shadow: 0.4rem 0.4rem #c91518;
-    width:  11.029411764705882vw;
+    width: 11.029411764705882vw;
     height: 6.0882800608828vh;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
@@ -200,11 +200,11 @@ p, .p {
     padding-bottom: 1.5rem;
     margin-bottom: 15rem;
 }
-#juntar_partes{
+#juntar_partes {
     justify-content: space-around;
     display: flex;
 }
-#texto-p{
+#texto-p {
     font-size: 2.5rem;
     width: 100%;
 }
@@ -233,8 +233,9 @@ p, .p {
 #botao_inscricoes {
     background-color: #8bcc8a;
     box-shadow: 0.4rem 0.4rem #379936;
-    width: 29.41176470588235vw;;
-    height: 6.0882800608828vh ;
+    width: 29.41176470588235vw;
+    ;
+    height: 6.0882800608828vh;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     text-align: center;
@@ -242,16 +243,15 @@ p, .p {
     margin-left: 55rem;
     margin-top: 30rem;
 }
-#logo_ifsp2{
+#logo_ifsp2 {
     width: 30.441400304414003vh;
- 
 }
-#logo_cnpq{
+#logo_cnpq {
     width: 14.705882352941176vw;
     margin-left: 6rem;
     margin-right: 6rem;
 }
-#logo_fabsoftware{
+#logo_fabsoftware {
     max-height: 60px;
 }
 #apoio_realizacao {
@@ -274,7 +274,7 @@ p, .p {
     margin: auto;
     position: relative;
 }
-#curso{
+#curso {
     background-color: white;
     width: 100%;
     height: auto;
@@ -283,7 +283,7 @@ p, .p {
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
-#curso h1{
+#curso h1 {
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 5rem;
@@ -293,19 +293,19 @@ p, .p {
     text-align: left;
     margin-bottom: 3rem;
 }
-#curso p{
+#curso p {
     font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
     text-align: justify;
 }
-#curso_sobre{
+#curso_sobre {
     display: flex;
     justify-content: space-between;
 }
-#curso_sobre div{
+#curso_sobre div {
     width: 48%;
 }
-#curso_sobre img{
+#curso_sobre img {
     width: 100%;
 }
 /* botoes */
@@ -350,11 +350,18 @@ figcaption {
 .bg-white {
     background-color: white;
 }
+html {
+    height: 100%;
+    min-height: 100%
+}
 body {
     font-family: 'Open-Sans', sans-serif;
     background-color: #fcfcfc;
     background-image: linear-gradient(#f1f1f1 1.1px, transparent 1.1px), linear-gradient(to right, #f1f1f1 1.1px, #fcfcfc 1.1px);
     background-size: 30px 30px;
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 100px;
 }
 a {
     font-family: 'Montserrat', sans-serif;
@@ -474,8 +481,10 @@ img {
 }
 /* RODAPE */
 .rodape {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     background-color: white;
-    margin-top: 30px;
     padding: 30px 0;
 }
 .rodape__titulo {
@@ -621,78 +630,66 @@ img {
     }
 }
 @media (max-width:1000px) {
-    html{
-        font-size: 40%;
+    html {
+        font-size: 55%;
     }
-    #feira_mapa_computador{
+    #feira_mapa_computador {
         display: none;
     }
-    #feira_mapa_celular{
+    #feira_mapa_celular {
         display: block;
     }
-    
-
 }
 @media (max-width:500px) {
-    
-    html{
+    html {
         font-size: 35%
     }
-    .header,.mt-3{
+    .header,
+    .mt-3 {
         width: 100%;
     }
-    .header,.topico_menu{
+    .header,
+    .topico_menu {
         display: flex;
         flex-direction: column;
     }
-    .secao__subtitulo{
+    .secao__subtitulo {
         text-shadow: -0.5rem -0.4rem black;
-
     }
-    a{
+    a {
         font-size: 4rem;
     }
-    .rodape__conteudo img{
+    .rodape__conteudo img {
         margin-top: 10px;
-        margin-bottom:10px ;
+        margin-bottom: 10px;
     }
-    .imagens-rodape{
-       background-color: none;
-       
-
+    .imagens-rodape {
+        background-color: none;
     }
-    .container{
+    .container {
         width: 90%;
-        
     }
-    .titulo_principal{
+    .titulo_principal {
         width: 100%;
-
     }
-    #logo_pessoas{
+    #logo_pessoas {
         margin: 0;
     }
-  
-
-   
-    .menu__toggle{
+    .menu__toggle {
         margin-top: -40px;
-
     }
-    .secao__titulo-pos-topo-esquerda{
+    .secao__titulo-pos-topo-esquerda {
         font-weight: bold;
         font-size: 5rem;
     }
-    #info-inscricoes{
+    #info-inscricoes {
         text-align: center;
     }
-    .secao__subtitulo{
+    .secao__subtitulo {
         width: 100%;
         font-size: 5.7rem;
-
     }
-    h2{
+    h2 {
         font-size: 4rem;
     }
-
 }
