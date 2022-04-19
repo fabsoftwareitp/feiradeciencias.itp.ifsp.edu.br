@@ -13,6 +13,8 @@ Os arquivos de layout ficam na pasta `_assets`. Basta criar novos arquivos css s
 
 ## Para adicionar imagens 
 
+
+
 Você deve colocar as imagens na pasta `source/assets/images` perceba que aqui é na pasta sem o `_`!
 
 Para referenciar a imagem no html você deve utilizar antes do nome da imagem o caminho: `/assets/images/`
