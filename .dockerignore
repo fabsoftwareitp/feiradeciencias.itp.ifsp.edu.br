@@ -1,0 +1,10 @@
+.git
+.github
+node_modules
+vendor
+build_local
+build_staging
+build_production
+cache
+Dockerfile
+.dockerignore
